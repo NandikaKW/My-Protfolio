@@ -127,5 +127,11 @@
     display: flex;
 }
 
+.custom-section .header__content {
+    padding-block: 2rem;
+    text-align: center;
+}
+
+
 
 
