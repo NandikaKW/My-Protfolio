@@ -149,5 +149,21 @@
     color: var(--primary-color);
 }
 
+.custom-section .header__content p {
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    color: var(--text-dark);
+}
+
+.custom-section .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
 
 
