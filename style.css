@@ -214,9 +214,23 @@
     .custom-section .nav__menu__btn {
         display: none;
     }
+    .custom-section .nav__links {
+        position: static;
+        padding: 0;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 3rem;
+        background-color: transparent;
+        transform: none;
+    }
+
+
+
+
     .custom-section .nav__links a {
         color: var(--text-dark);
     }
+
 
     .custom-section .nav__links a:hover {
         color: var(--primary-color);
