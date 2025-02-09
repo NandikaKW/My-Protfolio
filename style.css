@@ -83,4 +83,9 @@
     transform: translateY(0);
 }
 
+.custom-section .nav__links a {
+    font-weight: 500;
+    color: var(--white);
+    white-space: nowrap;
+}
 
