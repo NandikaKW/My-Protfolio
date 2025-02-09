@@ -141,8 +141,12 @@
     margin-bottom: 2rem;
     font-size: 3.75rem;
     font-weight: 700;
-    line-height: 5rem;
+    line-height: 4rem;
     color: var(--text-dark);
+}
+
+.custom-section .header__content h1 span {
+    color: var(--primary-color);
 }
 
 
