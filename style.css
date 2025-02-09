@@ -207,6 +207,10 @@
         background-color: transparent;
     }
 
+    .custom-section .nav__logo img{
+        max-width: 60px;
+    }
+
 }
 
 
