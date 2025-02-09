@@ -52,6 +52,12 @@
     border-radius: 50%; /* Makes the image perfectly circular */
     object-fit: cover; /* Ensures the image fills the space without distortion */
 }
-.custom-section .nav__logo{
+.custom-section .nav__logo {
     overflow: hidden;
+}
+
+.custom-section .nav__menu__btn {
+    font-size: 1.5rem;
+    color: var(--white);
+    cursor: pointer;
 }
