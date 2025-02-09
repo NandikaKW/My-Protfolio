@@ -178,6 +178,21 @@
     align-items: center;
     gap: 1rem;
 }
+/*Neuromorphic Effect Added*/
+.custom-section .links a {
+    display: inline-block;
+    padding: 16px 20px;
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px #d7dbe6, -10px -10px 15px var(--white);
+}
+
+/*.custom-section .links a:hover {*/
+/*    color: var(--white);*/
+/*    background-color: var(--primary-color);*/
+/*}*/
+
 
 
 
