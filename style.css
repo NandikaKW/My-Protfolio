@@ -118,6 +118,14 @@
     border-radius: 10px;
     box-shadow: 10px 10px 15px #d7dbe6, -10px -10px 15px var(--white);
     z-index: -1;
-
 }
+
+.custom-section .header__image img {
+    width: 100%;
+    max-width: 550px;
+    margin-inline: auto;
+    display: flex;
+}
+
+
 
