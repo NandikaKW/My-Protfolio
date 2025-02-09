@@ -202,6 +202,11 @@
         gap: 2rem;
     }
 
+    .custom-section .nav__header {
+        padding: 0;
+        background-color: transparent;
+    }
+
 }
 
 
