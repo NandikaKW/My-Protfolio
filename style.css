@@ -14,3 +14,7 @@
 .custom-section ul {
     list-style: none;
 }
+.custom-section a {
+    text-decoration: none;
+    transition: 0.3s;
+}
