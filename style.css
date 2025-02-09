@@ -42,3 +42,13 @@
     justify-content: space-between;
     background-color: var(--primary-color);
 }
+
+
+.custom-section .nav__logo img {
+    display: flex;
+    max-width: 50px; /* Adjust the size as needed */
+    width: 50px; /* Explicitly set width */
+    height: 50px; /* Explicitly set height to match width */
+    border-radius: 50%; /* Makes the image perfectly circular */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+}
