@@ -192,6 +192,17 @@
     color: var(--white);
     background-color: var(--primary-color);
 }
+@media (width>768px ) {
+    .custom-section nav {
+        position: static;
+        padding: 2rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+}
 
 
 
