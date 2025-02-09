@@ -6,7 +6,7 @@
     --white: #ffffff;
     --max-width: 1200px;
 }
-.custom-section{
+.custom-section * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
