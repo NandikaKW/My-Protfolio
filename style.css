@@ -228,6 +228,11 @@
         box-shadow: 10px 10px 15px #d7dbe6, -10px -10px 15px var(--white);
     }
 
+    .custom-section .hire__me:hover {
+        color: var(--white) !important;
+        background-color: var(--primary-color);
+    }
+
 
 
 }
