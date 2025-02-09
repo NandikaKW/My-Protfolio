@@ -78,3 +78,9 @@
     z-index: -1;
     transform: translateY(-100%);
 }
+
+.custom-section .nav__links.open {
+    transform: translateY(0);
+}
+
+
