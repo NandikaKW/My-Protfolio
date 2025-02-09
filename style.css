@@ -247,6 +247,10 @@
         text-align: left;
     }
 
+    .custom-section .links {
+        justify-content: flex-start;
+    }
+
 
 
 
