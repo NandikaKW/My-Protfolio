@@ -25,3 +25,12 @@
     background-color: rgba(242, 238, 239);
     overflow-x: hidden;
 }
+
+.custom-section nav {
+    position: fixed;
+    isolation: isolate;
+    width: 100%;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    z-index: 9;
+}
