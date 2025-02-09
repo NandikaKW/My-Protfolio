@@ -89,3 +89,7 @@
     white-space: nowrap;
 }
 
+.custom-section .nav__links a:hover {
+    color: var(--text-dark);
+}
+
