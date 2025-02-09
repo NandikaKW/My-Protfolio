@@ -251,6 +251,10 @@
         justify-content: flex-start;
     }
 
+    .custom-section .links h4{
+        text-align: left;
+    }
+
 
 
 
