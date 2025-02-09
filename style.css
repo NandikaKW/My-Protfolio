@@ -238,6 +238,11 @@
         align-items: center;
     }
 
+    .custom-section .header__image {
+        margin-top: 0;
+        grid-area: 1/2/2/3;
+    }
+
 
 
 
