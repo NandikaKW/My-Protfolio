@@ -211,6 +211,10 @@
         max-width: 60px;
     }
 
+    .custom-section .nav__menu__btn{
+        display: none;
+    }
+
 }
 
 
