@@ -211,9 +211,18 @@
         max-width: 60px;
     }
 
-    .custom-section .nav__menu__btn{
+    .custom-section .nav__menu__btn {
         display: none;
     }
+    .custom-section .nav__links a {
+        color: var(--text-dark);
+    }
+
+    .custom-section .nav__links a:hover {
+        color: var(--primary-color);
+    }
+
+
 
 }
 
