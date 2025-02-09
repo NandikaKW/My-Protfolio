@@ -107,3 +107,17 @@
     isolation: isolate;
 }
 
+.custom-section .header__image::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 25rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #d7dbe6, -10px -10px 15px var(--white);
+    z-index: -1;
+
+}
+
