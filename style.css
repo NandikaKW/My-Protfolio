@@ -131,7 +131,12 @@
     padding-block: 2rem;
     text-align: center;
 }
-
+.custom-section .header__content h5 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
 
 
 
