@@ -14,7 +14,14 @@
 .custom-section ul {
     list-style: none;
 }
+
 .custom-section a {
     text-decoration: none;
     transition: 0.3s;
+}
+
+.custom-section body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(242, 238, 239);
+    overflow-x: hidden;
 }
