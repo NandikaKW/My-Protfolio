@@ -188,10 +188,10 @@
     box-shadow: 10px 10px 15px #d7dbe6, -10px -10px 15px var(--white);
 }
 
-/*.custom-section .links a:hover {*/
-/*    color: var(--white);*/
-/*    background-color: var(--primary-color);*/
-/*}*/
+.custom-section .links a:hover {
+    color: var(--white);
+    background-color: var(--primary-color);
+}
 
 
 
