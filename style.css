@@ -233,6 +233,13 @@
         background-color: var(--primary-color);
     }
 
+    .custom-section .header__container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+
+
 
 
 }
