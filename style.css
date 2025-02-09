@@ -222,6 +222,12 @@
         color: var(--primary-color);
     }
 
+    .custom-section .hire__me {
+        padding: 1rem 1.5rem;
+        border-radius: 5px;
+        box-shadow: 10px 10px 15px #d7dbe6, -10px -10px 15px var(--white);
+    }
+
 
 
 }
