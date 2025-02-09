@@ -242,6 +242,10 @@
         margin-top: 0;
         grid-area: 1/2/2/3;
     }
+    .custom-section .header__content {
+        padding-block: 1rem;
+        text-align: left;
+    }
 
 
 
