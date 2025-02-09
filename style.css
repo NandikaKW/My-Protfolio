@@ -1,1 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.custom-section {
+    --primary-color: #ff014f;
+    --text-dark: #222222;
+    --white: #ffffff;
+    --max-width: 1200px;
+}
