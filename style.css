@@ -570,6 +570,11 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .unique-section .about-left {
+        position: relative;
+    }
+
+
 
 }
 
