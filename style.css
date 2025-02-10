@@ -406,6 +406,10 @@
     -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
 }
 
+.unique-section .about-img img {
+    display: block;
+    width: 200px;
+}
 
 /*About Me Section End*/
 
