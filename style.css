@@ -448,6 +448,9 @@
     transform: translateY(-10px);
 }
 
+.unique-section .shadow:hover::after {
+    opacity: 1;
+}
 
 
 
