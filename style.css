@@ -505,10 +505,14 @@
     text-align: center;
 }
 
-.unique-section .about-right h1{
+.unique-section .about-right h1 {
     font-size: 7rem;
     text-transform: uppercase;
 }
+.unique-section .about-right h1 span {
+    color: rgba(225, 29, 70);
+}
+
 
 
 
