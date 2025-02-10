@@ -346,6 +346,19 @@
         height: 30vmin;
     }
 }
+@media screen and (max-width: 768px) {
+    .banner__container {
+        justify-content: center;
+    }
+    .banner .wrapper {
+        justify-content: center;
+    }
+    .banner .container {
+        flex: 1 1 100%;
+        max-width: 80%;
+        height: 35vmin;
+    }
+}
 
 
 
