@@ -535,6 +535,13 @@
     margin: 0 0.5rem;
     cursor: pointer;
 }
+.unique-section .btn.btn-pink {
+    background: rgba(225, 29, 70);
+    color: #fff;
+    border-color: rgba(225, 29, 70);
+    transition: all 0.5s ease-in-out;
+}
+
 
 
 
