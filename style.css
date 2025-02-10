@@ -553,6 +553,12 @@
     transition: all 0.5s ease-in-out;
 }
 
+.unique-section .btn.btn-white:hover {
+    background: rgba(225, 29, 70);
+    border-color: rgba(225, 29, 70);
+    color: #fff;
+}
+
 
 
 
