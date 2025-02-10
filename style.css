@@ -467,6 +467,13 @@
     margin-top: 1.2rem;
 }
 
+.unique-section .icons {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+}
+
 
 
 /*About Me Section End*/
