@@ -283,6 +283,12 @@
     z-index: 1;
 
 }
+.banner__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
 
 
 
