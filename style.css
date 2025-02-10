@@ -273,6 +273,17 @@
 }
 /*Home Page Section End*/
 
+/*Status Bar Section Start*/
+.banner {
+    background-color: var(--primary-color);
+    position: relative;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #171717;
+    z-index: 1;
+}
+
+
 
 
 
