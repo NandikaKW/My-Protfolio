@@ -333,6 +333,19 @@
     font-weight: 400;
     line-height: 1.2;
 }
+@media screen and (max-width: 1024px) {
+    .banner__container {
+        justify-content: center;
+    }
+    .banner .wrapper {
+        justify-content: center;
+    }
+    .banner .container {
+        flex: 1 1 calc(50% - 2rem);
+        max-width: calc(50% - 2rem);
+        height: 30vmin;
+    }
+}
 
 
 
