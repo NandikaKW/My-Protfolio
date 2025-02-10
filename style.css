@@ -411,6 +411,14 @@
     width: 200px;
 }
 
+.unique-section .about-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
 /*About Me Section End*/
 
 
