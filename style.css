@@ -313,6 +313,10 @@
     border-bottom: 10px solid rgba(225, 29, 70);
     text-align: center;
 }
+.banner i{
+    color: rgba(225, 29, 70);
+    font-size: 2.5em;
+}
 
 
 
