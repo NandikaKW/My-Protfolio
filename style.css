@@ -298,6 +298,21 @@
     gap: 4rem;
 }
 
+.banner .container {
+    flex: 1 1 calc(25% - 4rem);
+    max-width: calc(25% - 4rem);
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background-color: #060606;
+    border-bottom: 10px solid rgba(225, 29, 70);
+    text-align: center;
+}
 
 
 
