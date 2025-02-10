@@ -513,6 +513,15 @@
     color: rgba(225, 29, 70);
 }
 
+.unique-section .about-right h2 {
+    font-weight: 600;
+}
+
+.unique-section .about-btns {
+    display: flex;
+    margin: 2rem 0;
+}
+
 
 
 
