@@ -313,9 +313,17 @@
     border-bottom: 10px solid rgba(225, 29, 70);
     text-align: center;
 }
-.banner i{
+.banner i {
     color: rgba(225, 29, 70);
     font-size: 2.5em;
+}
+
+.banner span.num {
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
 }
 
 
