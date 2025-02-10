@@ -559,6 +559,12 @@
     color: #fff;
 }
 
+.unique-section .about-para p {
+    font-weight: 300;
+    padding: 0.5rem;
+    opacity: 0.8;
+}
+
 
 
 
