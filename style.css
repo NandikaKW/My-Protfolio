@@ -378,28 +378,32 @@
     margin: 0;
     box-sizing: border-box;
 }
-.unique-section body{
-    font-family: 'Poppins', sans-serif;
 
+.unique-section body {
+    font-family: 'Poppins', sans-serif;
 }
 
 .unique-section .about-wrapper {
-    height: 100vh;
+    min-height: 100vh; /* Use min-height instead of height for flexibility */
+    display: flex;
+    flex-direction: column; /* Stack children vertically on smaller screens */
 }
+
 .unique-section .about-left {
     background: rgba(225, 29, 70);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    padding: 2rem; /* Add padding for better spacing on smaller screens */
 }
 
 .unique-section .about-left-content > div {
     background: rgba(225, 29, 70);
-    padding: 4rem 4rem 2.5rem 5rem;
+    padding: 2rem; /* Reduce padding for smaller screens */
     text-align: center;
 }
+
 .unique-section .about-left-content {
     box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
     -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
@@ -408,12 +412,12 @@
 
 .unique-section .about-img img {
     display: block;
-    width: 200px;
+    width: 150px; /* Reduce image size for smaller screens */
 }
 
 .unique-section .about-img {
-    width: 200px;
-    height: 200px;
+    width: 150px; /* Reduce image size for smaller screens */
+    height: 150px; /* Reduce image size for smaller screens */
     overflow: hidden;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
@@ -423,8 +427,8 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 150px; /* Reduce shadow size for smaller screens */
+    height: 150px; /* Reduce shadow size for smaller screens */
     position: relative;
     cursor: pointer;
 }
@@ -453,8 +457,8 @@
 }
 
 .unique-section .about-left-content h2 {
-    font-size: 2rem;
-    margin: 2.2rem 0 0.6rem 0;
+    font-size: 1.5rem; /* Reduce font size for smaller screens */
+    margin: 1.5rem 0 0.5rem 0; /* Adjust margin for smaller screens */
     line-height: 1.2;
     padding-bottom: 1rem;
     border-bottom: 2px solid #fff;
@@ -463,8 +467,8 @@
 .unique-section .about-left-content h3 {
     text-transform: uppercase;
     font-weight: 300;
-    letter-spacing: 5px;
-    margin-top: 1.2rem;
+    letter-spacing: 3px; /* Reduce letter spacing for smaller screens */
+    margin-top: 1rem; /* Adjust margin for smaller screens */
 }
 
 .unique-section .icons {
@@ -473,18 +477,19 @@
     justify-content: center;
     padding: 0.8rem 0;
 }
+
 .unique-section .icons li {
     list-style-type: none;
     background: rgba(225, 29, 70);
     color: #fff;
-    width: 40px;
-    height: 40px;
+    width: 35px; /* Reduce icon size for smaller screens */
+    height: 35px; /* Reduce icon size for smaller screens */
     margin: 0 0.5rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem; /* Reduce font size for smaller screens */
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
@@ -496,30 +501,41 @@
 
 .unique-section .about-right {
     background: #fff;
-    height: 100vh;
+    padding: 2rem; /* Add padding for better spacing on smaller screens */
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 5rem;
-    text-align: center;
+   /*// padding: 0 5rem;*/
 }
 
 .unique-section .about-right h1 {
-    font-size: 7rem;
+    font-size: 7rem; /* Reduce font size for smaller screens */
     text-transform: uppercase;
+    /*text-align: center;*/
 }
+
 .unique-section .about-right h1 span {
     color: rgba(225, 29, 70);
 }
 
 .unique-section .about-right h2 {
     font-weight: 600;
+    font-size: 2rem; /* Reduce font size for smaller screens */
 }
+.about-btns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 
 .unique-section .about-btns {
     display: flex;
-    margin: 2rem 0;
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    align-items: center; /* Center buttons on smaller screens */
+    margin: 2rem 0; /* Adjust margin for smaller screens */
 }
 
 .unique-section .btn {
@@ -532,9 +548,10 @@
     width: 130px;
     font-weight: 600;
     background: transparent;
-    margin: 0 0.5rem;
+    margin: 0.5rem 0; /* Adjust margin for stacked buttons */
     cursor: pointer;
 }
+
 .unique-section .btn.btn-pink {
     background: rgba(225, 29, 70);
     color: #fff;
@@ -548,7 +565,6 @@
     color: #000;
 }
 
-
 .unique-section .btn.btn-white {
     transition: all 0.5s ease-in-out;
 }
@@ -560,39 +576,82 @@
 }
 
 .unique-section .about-para p {
-    font-weight: 300;
+    font-weight: 500;
     padding: 0.5rem;
     opacity: 0.8;
 }
+
+/* Media Query for Larger Screens */
 @media screen and (min-width: 992px) {
     .unique-section .about-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        height: 100vh; /* Restore height for larger screens */
     }
 
     .unique-section .about-left {
-        position: relative;
+        height: 100vh; /* Restore height for larger screens */
+        padding: 0; /* Remove padding for larger screens */
     }
 
-    .unique-section .about-left-content {
-        position: absolute;
-        right: -50px;
+    .unique-section .about-left-content > div {
+        padding: 4rem 4rem 2.5rem 5rem; /* Restore padding for larger screens */
     }
 
+    .unique-section .about-img img {
+        width: 200px; /* Restore image size for larger screens */
+    }
 
+    .unique-section .about-img {
+        width: 200px; /* Restore image size for larger screens */
+        height: 200px; /* Restore image size for larger screens */
+    }
 
+    .unique-section .shadow {
+        width: 200px; /* Restore shadow size for larger screens */
+        height: 200px; /* Restore shadow size for larger screens */
+    }
+
+    .unique-section .about-left-content h2 {
+        font-size: 2rem; /* Restore font size for larger screens */
+        margin: 2.2rem 0 0.6rem 0; /* Restore margin for larger screens */
+    }
+
+    .unique-section .about-left-content h3 {
+        letter-spacing: 5px; /* Restore letter spacing for larger screens */
+        margin-top: 1.2rem; /* Restore margin for larger screens */
+    }
+
+    .unique-section .icons li {
+        width: 40px; /* Restore icon size for larger screens */
+        height: 40px; /* Restore icon size for larger screens */
+        font-size: 1.2rem; /* Restore font size for larger screens */
+    }
+
+    .unique-section .about-right {
+        height: 100vh; /* Restore height for larger screens */
+        padding: 0 5rem; /* Restore padding for larger screens */
+    }
+
+    .unique-section .about-right h1 {
+        font-size: 7rem; /* Restore font size for larger screens */
+    }
+
+    .unique-section .about-right h2 {
+        /*font-size: inherit;!* Restore font size for larger screens *!*/
+        font-weight: 600;
+
+    }
+
+    .unique-section .about-btns {
+        flex-direction: row; /* Restore horizontal layout for buttons */
+        margin: 2rem 0; /* Restore margin for larger screens */
+    }
+
+    .unique-section .btn {
+        margin: 0 0.5rem; /* Restore margin for larger screens */
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
 /*About Me Section End*/
 
 
