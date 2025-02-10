@@ -489,6 +489,14 @@
     transition: all 0.5s ease-in-out;
 }
 
+.unique-section .icons li:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+
+
 
 
 /*About Me Section End*/
