@@ -326,6 +326,14 @@
     font-size: 3em;
 }
 
+.banner span.text {
+    color: #fff;
+    font-size: 1.1em;
+    padding: 0.7em 0;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
 
 
 
