@@ -564,6 +564,14 @@
     padding: 0.5rem;
     opacity: 0.8;
 }
+@media screen and (min-width: 992px) {
+    .unique-section .about-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
 
 
 
