@@ -574,6 +574,11 @@
         position: relative;
     }
 
+    .unique-section .about-left-content {
+        position: absolute;
+        right: -50px;
+    }
+
 
 
 }
