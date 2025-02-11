@@ -653,12 +653,14 @@
     }
 }
 /*About Me Section End*/
-.unique-section *{
+
+
+/*Gallery Section Start*/
+.unique-gallery * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/*Gallery Section Start*/
 
 /*Gallery Scetion End*/
 
