@@ -753,6 +753,10 @@
     background: rgba(0, 0, 0, 0.4);
     display: none;
 }
+
+.unique-gallery .gallery-wrapper div:hover::after {
+    display: block;
+}
 /*Gallery Scetion End*/
 
 
