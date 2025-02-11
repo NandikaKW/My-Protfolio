@@ -736,7 +736,9 @@
     background: url("assets/images/image_10.jpg") center/cover no-repeat;
     height: 400px;
 }
-
+.unique-gallery .gallery-wrapper div:hover {
+    cursor: pointer;
+}
 /*Gallery Scetion End*/
 
 
