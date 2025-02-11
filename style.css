@@ -805,10 +805,17 @@
         grid-row: 10;
         grid-column: 1 / 7;
     }
-
-
-
 }
+
+.unique-gallery .image-view {
+    position: fixed;
+    top: 20px;
+    bottom: 20px;
+    right: 4%;
+    left: 4%;
+    display: none;
+}
+
 /*Gallery Scetion End*/
 
 
