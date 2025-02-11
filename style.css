@@ -774,6 +774,12 @@
         grid-column: 1 / 7;
     }
 
+    .unique-gallery .block4 {
+        grid-row: 4;
+        grid-column: 1 / 7;
+    }
+
+
 }
 /*Gallery Scetion End*/
 
