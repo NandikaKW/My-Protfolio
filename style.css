@@ -769,6 +769,11 @@
         grid-column: 1 / 7;
     }
 
+    .unique-gallery .block3 {
+        grid-row: 3;
+        grid-column: 1 / 7;
+    }
+
 }
 /*Gallery Scetion End*/
 
