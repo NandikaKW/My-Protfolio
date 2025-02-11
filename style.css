@@ -757,6 +757,14 @@
 .unique-gallery .gallery-wrapper div:hover::after {
     display: block;
 }
+
+@media screen and (max-width: 992px) {
+    .unique-gallery .block1 {
+        grid-row: 1;
+        grid-column: 1 / 7;
+    }
+
+}
 /*Gallery Scetion End*/
 
 
