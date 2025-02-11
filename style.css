@@ -682,7 +682,12 @@
     height: 300px;
 }
 
-
+.unique-gallery .block2 {
+    grid-row: 1;
+    grid-column: 3 / span 2;
+    background: url("assets/images/image_2.jpg") center/cover no-repeat;
+    height: 300px;
+}
 /*Gallery Scetion End*/
 
 
