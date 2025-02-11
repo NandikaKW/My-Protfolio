@@ -671,6 +671,10 @@
     grid-gap: 0.4rem;
 }
 
+.unique-gallery .gallery-wrapper div {
+    position: relative;
+}
+
 /*Gallery Scetion End*/
 
 
