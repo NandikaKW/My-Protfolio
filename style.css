@@ -712,6 +712,12 @@
     background: url("assets/images/image_6.jpg") center/cover no-repeat;
     height: 300px;
 }
+.unique-gallery .block7 {
+    grid-row: 3;
+    grid-column: 3 / span 2;
+    background: url("assets/images/image_7.jpg") center/cover no-repeat;
+    height: 300px;
+}
 /*Gallery Scetion End*/
 
 
