@@ -783,6 +783,10 @@
         grid-row: 5;
         grid-column: 1 / 7;
     }
+    .unique-gallery .block6 {
+        grid-row: 6;
+        grid-column: 1 / 7;
+    }
 
 
 }
