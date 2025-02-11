@@ -792,6 +792,11 @@
         grid-column: 1 / 7;
     }
 
+    .unique-gallery .block8 {
+        grid-row: 8;
+        grid-column: 1 / 7;
+    }
+
 
 
 }
