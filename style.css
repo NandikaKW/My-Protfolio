@@ -675,6 +675,14 @@
     position: relative;
 }
 
+.unique-gallery .block1 {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    background: url("assets/images/About_image.jpg") center/cover no-repeat;
+    height: 300px;
+}
+
+
 /*Gallery Scetion End*/
 
 
