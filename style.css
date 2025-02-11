@@ -796,6 +796,15 @@
         grid-row: 8;
         grid-column: 1 / 7;
     }
+    .unique-gallery .block9 {
+        grid-row: 9;
+        grid-column: 1 / 7;
+    }
+
+    .unique-gallery .block10 {
+        grid-row: 10;
+        grid-column: 1 / 7;
+    }
 
 
 
