@@ -987,6 +987,13 @@
     max-width: fit-content;
 }
 
+.footer .footer__bar{
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    text-align: center;
+}
+
 
 
 
