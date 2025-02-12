@@ -966,6 +966,25 @@
     gap: 1rem;
 }
 
+.footer .footer__form input,
+.footer .footer__form textarea {
+    flex: 1;
+    width: 100%;
+    padding: 0.75rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--text-light);
+    font-size: 1rem;
+    color: var(--white);
+    background-color: transparent;
+}
+
+.footer .footer__form textarea {
+    min-height: 8rem;
+    margin-bottom: 1rem;
+}
+
+
 
 
 
