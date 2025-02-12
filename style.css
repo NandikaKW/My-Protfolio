@@ -949,6 +949,10 @@
     transition: 0.3s;
 }
 
+.footer .footer__socials a:hover{
+    color: var(--primary-color);
+}
+
 
 
 
