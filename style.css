@@ -908,13 +908,20 @@
 }
 
 .footer .footer__container .section__header::before {
-    content: "Contact Us";
+    content: "Contact Me";
     color: var(--white);
     left: 50%;
     transform: translateX(-50%);
 }
 /*Topic End*/
-
+.footer .footer__container .section__description{
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: var(--white);
+    font-size: large;
+}
 
 
 
