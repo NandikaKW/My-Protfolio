@@ -852,6 +852,16 @@
     padding: 5rem 1rem;
 }
 
+.footer .section__header {
+    padding-top: 3rem;
+    position: relative;
+    isolation: isolate;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    overflow: hidden;
+}
+
 
 
 /*Contact Section End*/
