@@ -1091,7 +1091,9 @@
     transition: 0.3s;
     flex-shrink: 0;
 }
-
+.unique-service-section .service__card:hover span{
+    color: var(--primary-color);
+}
 /*Service Section End*/
 
 
