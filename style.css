@@ -1057,6 +1057,11 @@
     color: var(--white);
 
 }
+.unique-service-section .service__container .section__description{
+    max-width: 600px;
+    color: var(--white);
+
+}
 /*Service Section End*/
 
 
