@@ -922,6 +922,11 @@
     color: var(--white);
     font-size: large;
 }
+.footer .footer__grid{
+    display: grid;
+    gap: 4rem 2rem;
+}
+
 
 
 
