@@ -1106,6 +1106,14 @@
     color: var(--text-light);
     font-size: 1.0rem;
 }
+.unique-service-section .service__container .section__description{
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    font-size: 1.2rem;
+    word-spacing: 0.1rem; /* Adds proper spacing between words */
+    line-height: 1.6; /* Improves readability */
+    text-align: justify; /* Aligns text properly */
+}
 /*Service Section End*/
 
 
