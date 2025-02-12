@@ -953,6 +953,12 @@
     color: var(--primary-color);
 }
 
+.footer .footer__form form {
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+}
+
 
 
 
