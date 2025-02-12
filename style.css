@@ -890,6 +890,9 @@
 .footer .btn__primary:hover{
     background-color: var(--primary-color-dark);
 }
+footer a{
+    text-decoration: none;
+}
 
 
 
