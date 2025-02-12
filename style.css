@@ -1094,6 +1094,16 @@
 .unique-service-section .service__card:hover span{
     color: var(--primary-color);
 }
+
+.unique-service-section .service__card h4{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
+}
+.unique-service-section .service__card p{
+
+}
 /*Service Section End*/
 
 
