@@ -829,8 +829,17 @@
 }
 /*Gallery Scetion End*/
 
-/*  Contact section  Start*/
+/*  contact section  Start*/
+.footer{
+    --primary-color: rgba(254, 33, 79);
+    --primary-color-dark: rgba(254, 33, 79);
+    --secondary-color: rgba(63, 63, 66, 0.98);
+    --secondary-color-dark: rgba(14, 14, 14, 0.97);
+    --text-light: rgba(242, 238, 239);
+    --white: rgba(242, 238, 239);
+    --max-width: 1200px;
 
+}
 
 
 /*Contact Section End*/
