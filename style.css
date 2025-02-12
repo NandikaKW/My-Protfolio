@@ -1102,7 +1102,9 @@
     color: var(--white);
 }
 .unique-service-section .service__card p{
-
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    font-size: 1.0rem;
 }
 /*Service Section End*/
 
