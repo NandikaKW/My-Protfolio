@@ -901,6 +901,11 @@
 .footer{
     background-color: var(--secondary-color-dark);
 }
+.footer__container .section__header {
+    text-align: center;
+    color: var(--white);
+}
+
 
 
 
