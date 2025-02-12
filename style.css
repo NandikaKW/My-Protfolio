@@ -993,6 +993,11 @@
     color: var(--text-light);
     text-align: center;
 }
+@media (width > 768px) {
+    .footer .footer__grid {
+        grid-template-columns: 1fr 2fr;
+    }
+}
 
 
 
