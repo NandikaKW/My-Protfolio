@@ -938,6 +938,11 @@
     color: var(--text-light);
     font-size: 1.0rem;
 }
+.footer .footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 
 
 
