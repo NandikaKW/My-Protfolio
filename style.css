@@ -901,10 +901,20 @@
 .footer{
     background-color: var(--secondary-color-dark);
 }
+/*Topic Start*/
 .footer__container .section__header {
     text-align: center;
     color: var(--white);
 }
+
+.footer .footer__container .section__header::before {
+    content: "Contact Us";
+    color: var(--white);
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*Topic End*/
+
 
 
 
