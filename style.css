@@ -943,6 +943,13 @@
     align-items: center;
     gap: 1rem;
 }
+.footer .footer__socials a {
+    font-size: 1.25rem;
+    color: var(--white);
+    transition: 0.3s;
+}
+
+
 
 
 
