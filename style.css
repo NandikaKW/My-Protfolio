@@ -1125,6 +1125,16 @@
     border-radius: 50%;
     transition: 0.3s;
 }
+@media (width > 768px) {
+    .unique-service-section .service__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .unique-service-section .service__card {
+        padding: 2rem;
+    }
+
+}
 /*Service Section End*/
 
 
