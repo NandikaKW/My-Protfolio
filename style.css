@@ -1114,6 +1114,17 @@
     line-height: 1.6; /* Improves readability */
     text-align: justify; /* Aligns text properly */
 }
+.unique-service-section .service__card span{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    color: var(--secondary-color-dark);
+    background-color: var(--white);
+    border-radius: 50%;
+    transition: 0.3s;
+}
 /*Service Section End*/
 
 
