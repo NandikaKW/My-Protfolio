@@ -898,6 +898,9 @@
     font-family: "Poppins", sans-serif;
     color: var(--white);
 }
+.footer{
+    background-color: var(--secondary-color-dark);
+}
 
 
 
