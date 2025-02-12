@@ -890,8 +890,13 @@
 .footer .btn__primary:hover{
     background-color: var(--primary-color-dark);
 }
-footer a{
+.footer a {
     text-decoration: none;
+}
+.footer body {
+    background-color: var(--secondary-color);
+    font-family: "Poppins", sans-serif;
+    color: var(--white);
 }
 
 
