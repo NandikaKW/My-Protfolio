@@ -933,6 +933,11 @@
     color: var(--white);
 
 }
+.footer .footer__content p{
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    font-size: 1.0rem;
+}
 
 
 
