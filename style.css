@@ -983,6 +983,9 @@
     min-height: 8rem;
     margin-bottom: 1rem;
 }
+.footer .footer__form .btn{
+    max-width: fit-content;
+}
 
 
 
