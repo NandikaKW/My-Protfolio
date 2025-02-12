@@ -1014,11 +1014,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-.unique-service-section .section__container{
+.unique-service-section .section__container {
     max-width: var(--max-width);
     margin: auto;
     padding: 5rem 1rem;
 }
+
+.unique-service-section .section__header {
+    padding-top: 3rem;
+    position: relative;
+    isolation: isolate;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    overflow: hidden;
+}
+
 /*Service Section End*/
 
 
