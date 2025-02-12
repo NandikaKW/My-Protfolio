@@ -1042,6 +1042,11 @@
 .unique-service-section a{
     text-decoration: none;
 }
+.unique-service-section body{
+    background-color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+}
 /*Service Section End*/
 
 
