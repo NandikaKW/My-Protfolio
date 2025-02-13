@@ -1204,6 +1204,18 @@
     font-size: 20px; /* Icon size */
 
 }
+.footer-Section .social-links a:hover{
+    background: rgba(225, 29, 70);
+    transform: scale(1.1);
+}
+.footer-Section .social-links a i{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
 /*Footer Section End*!*/
 
 
