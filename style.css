@@ -531,7 +531,7 @@
 }
 
 
-.unique-section .about-btns {
+.unique-section .about-btn {
     display: flex;
     flex-direction: column; /* Stack buttons vertically on smaller screens */
     align-items: center; /* Center buttons on smaller screens */
