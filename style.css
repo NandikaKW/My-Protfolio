@@ -1157,6 +1157,11 @@
     padding: 2.5rem 0;
     border-top: 1.5px solid #252525;
 }
+.footer-Section body{
+     color: #fff;
+     line-height: 1.5;
+     overflow-x: hidden;
+ }
 /*Footer Section End*!*/
 
 
