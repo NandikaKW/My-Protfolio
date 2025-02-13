@@ -1289,7 +1289,18 @@
     }
 
 }
+@media screen and (min-width: 1200px){
+    .footer-Section .row{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-Section .col{
+        text-align: left;
+    }
+    .footer-Section .social-links{
+        justify-content: flex-start;
+    }
 
+}
 
 
 /*Footer Section End*!*/
