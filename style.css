@@ -1216,12 +1216,21 @@
     align-items: center;
     border-radius: 50%;
 }
-.footer-Section .row{
+.footer-Section .row {
     display: grid;
-    gap:2rem;
+    gap: 2rem;
     justify-content: center;
     text-align: center;
 }
+
+
+.footer-Section .footer-links a {
+    display: block;
+    text-transform: capitalize;
+    padding: 0.2rem 0;
+    transition: var(--transition);
+}
+
 /*Footer Section End*!*/
 
 
