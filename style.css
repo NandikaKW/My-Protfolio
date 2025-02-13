@@ -1143,6 +1143,22 @@
 }
 /*Service Section End*/
 
+/*Footer Section Start*/
+.footer-Section{
+    --poppins: 'Poppins', sans-serif;
+    --sans: 'Open Sans', sans-serif;
+    color: #fff;
+    --nero: #252525;
+    --transition: all 0.4s ease;
+    background-color: #111;
+}
+
+.footer-Section{
+    padding: 2.5rem 0;
+    border-top: 1.5px solid #252525;
+}
+/*Footer Section End*!*/
+
 
 
 
