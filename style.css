@@ -1162,6 +1162,10 @@
      line-height: 1.5;
      overflow-x: hidden;
  }
+.footer-Section a{
+    color: #fff;
+    text-decoration: none;
+}
 /*Footer Section End*!*/
 
 
