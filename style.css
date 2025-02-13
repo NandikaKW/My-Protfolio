@@ -1245,6 +1245,30 @@
 .footer-Section .footer-text .text{
     text-align: center;
 }
+@media screen and (min-width: 768px){
+    .footer-Section .row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    .footer-Section .row{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .footer-Section .col{
+        text-align: left;
+    }
+    .footer-Section .col:first-child .text{
+        margin: 0;
+    }
+    .footer-Section .social-links{
+        justify-content: flex-start;
+    }
+    .footer-Section .footer-links a .fas{
+        display: inline-block;
+    }
+
+}
 /*Footer Section End*!*/
 
 
