@@ -1236,6 +1236,15 @@
 .footer-Section .footer-links a:hover{
     color: #fff;
 }
+.footer-Section .col:last-child div{
+    padding: 0.2rem 0;
+}
+.footer-Section .col:last-child .fas {
+    padding-right: 0.5rem;
+}
+.footer-Section .footer-text .text{
+    text-align: center;
+}
 /*Footer Section End*!*/
 
 
