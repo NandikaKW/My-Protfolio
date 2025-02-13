@@ -1166,6 +1166,11 @@
     color: #fff;
     text-decoration: none;
 }
+.footer-Section .text{
+    font-size: 1.05rem;
+    color: #e4dfdf;
+    line-height: 1.7;
+}
 /*Footer Section End*!*/
 
 
