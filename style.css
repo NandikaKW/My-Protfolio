@@ -1190,6 +1190,20 @@
     display: flex;
     justify-content: center;
 }
+.footer-Section .social-links a{
+    margin: 1.5rem 0.5rem;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    border-radius: 50%; /* Makes it a perfect circle */
+    background-color: #333; /* Dark background */
+    color: white;
+    font-size: 20px; /* Icon size */
+
+}
 /*Footer Section End*!*/
 
 
