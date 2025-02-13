@@ -1182,6 +1182,14 @@
     text-align: center;
     padding: 1rem 0;
 }
+.footer-Section .col:first-child .text{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-Section .social-links{
+    display: flex;
+    justify-content: center;
+}
 /*Footer Section End*!*/
 
 
