@@ -1190,20 +1190,21 @@
     display: flex;
     justify-content: center;
 }
-.footer-Section .social-links a{
+.footer-Section .social-links a {
     margin: 1.5rem 0.5rem;
     transition: var(--transition);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px; /* Fixed width */
-    height: 40px; /* Fixed height */
-    border-radius: 50%; /* Makes it a perfect circle */
+    width: 40px; /* Ensures equal width */
+    height: 40px; /* Ensures equal height */
+    border-radius: 50%; /* Keeps the icons perfectly circular */
     background-color: #333; /* Dark background */
     color: white;
     font-size: 20px; /* Icon size */
-
+    flex-shrink: 0; /* Prevents icons from being distorted */
 }
+
 .footer-Section .social-links a:hover{
     background: rgba(225, 29, 70);
     transform: scale(1.1);
@@ -1276,6 +1277,13 @@
     justify-content: center;
     text-align: center;
 }
+.footer-Section .col{
+    padding: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
 /*Footer Section End*!*/
 
 
