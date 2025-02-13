@@ -1171,6 +1171,14 @@
     color: #e4dfdf;
     line-height: 1.7;
 }
+.footer-Section .footer-title{
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+
+}
 /*Footer Section End*!*/
 
 
