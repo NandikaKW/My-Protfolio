@@ -1301,10 +1301,19 @@
     }
 
 }
-
-
 /*Footer Section End*!*/
+/*My Projects Section Start*/
+.blog__container{
+    --primary-color: rgba(254, 33, 79);
+    --primary-color-dark: rgba(254, 33, 79);
+    --secondary-color: #131314ea;
+    --secondary-color-dark: #131314ea;
+    --text-light: rgba(242, 238, 239);
+    --white: rgba(242, 238, 239);
+    --max-width: 1200px;
 
+}
+/*My Projects Section End*/
 
 
 
