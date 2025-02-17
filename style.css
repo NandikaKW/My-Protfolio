@@ -1318,6 +1318,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+.blog__container .section__container{
+    max-width: var(--max-width) ;
+    margin: auto;
+    box-sizing: border-box;
+}
 /*My Projects Section End*/
 
 
