@@ -1423,6 +1423,13 @@
     }
 
 }
+@media (width > 540px){
+    .blog__container .blog__grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
 /*My Projects Section End*/
 
 
