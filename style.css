@@ -1404,6 +1404,10 @@
     flex-wrap: wrap;
     margin-top: auto;
 }
+.blog__container .blog__content a{
+    color:var(--white);
+    transition: 0.3s;
+}
 /*My Projects Section End*/
 
 
