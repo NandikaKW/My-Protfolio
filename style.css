@@ -1417,18 +1417,19 @@
     align-items: center;
     gap: 1rem;
 }
-@media (width > 540px){
-    .blog__container .blog__grid{
-        grid-template-columns: repeat(2,1fr);
-    }
 
-}
-@media (width > 540px){
-    .blog__container .blog__grid{
-        grid-template-columns: repeat(3,1fr);
+@media (width > 540px) {
+    .blog__container .blog__grid {
+        grid-template-columns: repeat(2, 1fr);
     }
-
 }
+
+@media (width > 768px) {
+    .blog__container .blog__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 
 /*My Projects Section End*/
 
