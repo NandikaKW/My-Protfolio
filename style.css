@@ -1313,6 +1313,11 @@
     --max-width: 1200px;
 
 }
+.blog__container *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /*My Projects Section End*/
 
 
