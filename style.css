@@ -1393,6 +1393,17 @@
     font-weight: 500;
 }
 
+.blog__container .blog__content .section__description {
+    margin-bottom: 2rem;
+}
+/*.blog__container .blog__content > div {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    gap: 2rem;*/
+/*    flex-wrap: wrap;*/
+/*    margin-top: auto;*/
+/*}*/
 /*My Projects Section End*/
 
 
