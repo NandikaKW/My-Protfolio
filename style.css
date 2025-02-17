@@ -1350,6 +1350,17 @@
     font-weight: 500;
     overflow: hidden;
 }
+.blog__container .section__header::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 6rem;
+    white-space: nowrap;
+    opacity: 0.1;
+    content: "Projects";
+}
 
 /*My Projects Section End*/
 
