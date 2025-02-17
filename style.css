@@ -1430,6 +1430,15 @@
     }
 }
 
+@media (width > 1024px) {
+    .blog__container .blog__grid {
+        gap: 2rem;
+    }
+
+    .blog__container .blog__content {
+        padding: 2rem;
+    }
+}
 
 /*My Projects Section End*/
 
