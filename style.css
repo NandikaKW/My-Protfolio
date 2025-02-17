@@ -1387,6 +1387,12 @@
     display: flex;
     flex-direction: column;
 }
+.blog__container .blog__content h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 /*My Projects Section End*/
 
 
