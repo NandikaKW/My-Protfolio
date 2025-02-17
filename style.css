@@ -1380,13 +1380,13 @@
     grid-auto-rows: 1fr;
 }
 
-/*.blog__container .blog__content {*/
-/*    padding: 1rem;*/
-/*    background-color: var(--secondary-color-dark);*/
-/*    flex-grow: 1; !* Ensures the content takes up remaining space *!*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
+.blog__container .blog__content {
+    padding: 1rem;
+    background-color: var(--secondary-color-dark);
+    flex-grow: 1; /* Ensures the content takes up remaining space */
+    display: flex;
+    flex-direction: column;
+}
 /*My Projects Section End*/
 
 
