@@ -1334,6 +1334,22 @@
     font-family: "Poppins", sans-serif; /* Apply font family */
     color: var(--white); /* Apply text color */
 }
+.blog__container .blog__card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color-dark);
+    border-radius: 8px;
+    overflow: hidden; /* Ensures the image doesn't overflow the card */
+}
+/*.blog__container .section__header {*/
+/*    padding-top: 3rem;*/
+/*    position: relative;*/
+/*    isolation: isolate;*/
+/*    margin-bottom: 1rem;*/
+/*    font-size: 1.5rem;*/
+/*    font-weight: 500;*/
+/*    overflow: hidden;*/
+/*}*/
 
 /*My Projects Section End*/
 
