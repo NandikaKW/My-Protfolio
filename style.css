@@ -1404,12 +1404,24 @@
     flex-wrap: wrap;
     margin-top: auto;
 }
-.blog__container .blog__content a{
-    color:var(--white);
+.blog__container .blog__content a {
+    color: var(--white);
     transition: 0.3s;
 }
-.blog__container .blog__content a:hover{
+
+.blog__container .blog__content a:hover {
     color: var(--primary-color);
+}
+.blog__container .blog__socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media (width > 540px){
+    .blog__container .blog__grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
 }
 /*My Projects Section End*/
 
