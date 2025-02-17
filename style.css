@@ -1341,15 +1341,15 @@
     border-radius: 8px;
     overflow: hidden; /* Ensures the image doesn't overflow the card */
 }
-/*.blog__container .section__header {*/
-/*    padding-top: 3rem;*/
-/*    position: relative;*/
-/*    isolation: isolate;*/
-/*    margin-bottom: 1rem;*/
-/*    font-size: 1.5rem;*/
-/*    font-weight: 500;*/
-/*    overflow: hidden;*/
-/*}*/
+.blog__container .section__header {
+    padding-top: 3rem;
+    position: relative;
+    isolation: isolate;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    overflow: hidden;
+}
 
 /*My Projects Section End*/
 
