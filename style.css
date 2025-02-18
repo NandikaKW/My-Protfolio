@@ -1501,6 +1501,14 @@
     overflow: hidden;
     color: var(--white);
 }
+.description {
+    font-size: 1.2rem;  /* Increase font size */
+    text-align: center; /* Center align text */
+    color: var(--white);    /* Darker text color for readability */
+    line-height: 1.6;   /* Increase line height for better spacing */
+    margin-bottom: 20px; /* Add spacing below the paragraph */
+}
+
 .resume__container .section__header::before {
     position: absolute;
     left: 0;
@@ -1547,7 +1555,7 @@
     margin-bottom: 4rem;
     text-align: center;
     color: var(--white);
-    font-size: 1.1rem; /* Adjusted for a slightly larger font */
+    font-size: 0.9rem; /* Adjusted for a slightly larger font */
     line-height: 1.6; /* Improves readability */
 
 }
@@ -1569,7 +1577,7 @@
     background-color: var(--primary-color);
 }
 .resume__container .panel__grid{
-    gap: 1.5rem;
+    gap: 2rem;
     display: none;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     justify-content: center;
@@ -1602,13 +1610,13 @@
     }
 }
 .resume__container .panel__card{
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
     background-color: var(--secondary-color-dark);
     border-radius: 5px;
     transition: 0.3s;
-    min-width: 300px;
-    height: 300px;
+    min-width: 320px;
+    height: 380px;
     max-width: 100%;
     flex-grow: 1;
 
@@ -1633,7 +1641,7 @@
     color: var(--white);
 }
 .resume__container .panel__card .section__description{
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 /*.resume__container .banner{*/
 /*    background-color: var(--primary-color);*/
@@ -1680,6 +1688,37 @@
     border-radius: 15px;
     margin: 40px;
     transition: 0.5s;
+}
+.resume__container .card:nth-child(1) .box .content a {
+    background: #2196f3;
+}
+
+.resume__container .card:nth-child(2) .box .content a {
+    background: #e91e63;
+}
+
+.resume__container .card:nth-child(3) .box .content a {
+    background: #23c186;
+}
+.resume__container .box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #2a2b2f;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+
+.resume__container .box:hover {
+    transform: translateY(-50px);
 }
 
 /*Resume Section End*/
