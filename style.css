@@ -1529,6 +1529,9 @@
     font-family: 'Poppins', sans-serif;
     color: var(--white);
 }
+.resume__container{
+    background-color: var(--secondary-color);
+}
 /*Resume Section End*/
 
 
