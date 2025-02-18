@@ -1564,6 +1564,11 @@
     background-color: var(--secondary-color);
     border: none;
 }
+.resume__container .resume__tablist .btn.active,
+.resume__container .resume__tablist .btn:hover {
+    background-color: var(--primary-color);
+}
+
 /*Resume Section End*/
 
 
