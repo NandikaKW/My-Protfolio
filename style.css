@@ -1661,6 +1661,26 @@
         padding: 2rem;
     }
 }
+.resume__container .container{
+    background-color: #232427;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    border-radius: 20px;
+}
+.resume__container .card {
+    position: relative;
+    min-width: 320px;
+    height: 380px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px #131314ea, -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 40px;
+    transition: 0.5s;
+}
 
 /*Resume Section End*/
 
