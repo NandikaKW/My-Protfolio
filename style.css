@@ -1466,6 +1466,20 @@
 
 /*My Projects Section End*/
 
+/*Resume Section Start*/
+.resume__container{
+    --primary-color: rgba(254, 33, 79);
+    --primary-color-dark: rgba(254, 33, 79);
+    --secondary-color: #131314ea;
+    --secondary-color-dark: #131314ea;
+    --text-light: rgba(242, 238, 239);
+    --white: rgba(242, 238, 239);
+    --max-width: 1200px;
+}
+.resume__container{
+    padding: 5rem 8rem;
+}
+/*Resume Section End*/
 
 
 
