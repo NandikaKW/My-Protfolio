@@ -1521,9 +1521,13 @@
     cursor: pointer;
     transition: 0.3s;
 }
-.resume__container .btn__primary{
+.resume__container .btn__primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
+}
+
+.resume__container .btn__primary:hover {
+    background-color: var(--primary-color-dark);
 }
 /*Resume Section End*/
 
