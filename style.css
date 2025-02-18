@@ -1626,6 +1626,13 @@
 .resume__container .panel__card:hover span{
     color: var(--white);
 }
+.resume__container .panel__card h4{
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
 /*Resume Section End*/
 
 
