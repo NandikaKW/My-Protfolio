@@ -1632,7 +1632,9 @@
     font-weight: 700;
     color: var(--white);
 }
-
+.resume__container .panel__card .section__description{
+    margin-bottom: 1rem;
+}
 /*Resume Section End*/
 
 
