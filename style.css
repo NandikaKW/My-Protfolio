@@ -1715,8 +1715,6 @@
     transition: 0.5s;
 
 }
-
-
 .resume__container .box:hover {
     transform: translateY(-50px);
 }
