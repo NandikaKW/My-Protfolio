@@ -1516,7 +1516,7 @@
     outline: none;
     border: none;
     font-size: 0.9rem;
-    color: var(--white);
+    color: var(--secondary-color);
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -1547,7 +1547,7 @@
     margin-bottom: 4rem;
     text-align: center;
     color: var(--white);
-    font-size: 1.2rem; /* Adjusted for a slightly larger font */
+    font-size: 1.1rem; /* Adjusted for a slightly larger font */
     line-height: 1.6; /* Improves readability */
 
 }
@@ -1575,6 +1575,10 @@
     justify-content: center;
     align-items: stretch;
     width: 100%;
+}
+.resume__container .panel__grid.active{
+    display: grid;
+    animation: show-panel 0.3s forwards;
 }
 /*Resume Section End*/
 
