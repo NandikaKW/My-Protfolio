@@ -1607,11 +1607,11 @@
     background-color: var(--secondary-color-dark);
     border-radius: 5px;
     transition: 0.3s;
-    min-width: 330px;
-    height: 330px;
+    min-width: 300px;
+    height: 300px;
     max-width: 100%;
     flex-grow: 1;
-    aspect-ratio: 1 / 1;
+
 }
 .resume__container .panel__card:hover{
     background-color: var(--primary-color);
@@ -1635,6 +1635,33 @@
 .resume__container .panel__card .section__description{
     margin-bottom: 1rem;
 }
+/*.resume__container .banner{*/
+/*    background-color: var(--primary-color);*/
+/*}*/
+@media (width > 540px) {
+    .resume__container .panel__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width > 768px) {
+    .resume__container .panel__grid {
+        /*grid-template-columns: repeat(3, 1fr);*/
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ensures proper layout on medium screens */
+        gap: 0.8rem;
+    }
+}
+
+@media (width > 1024px) {
+    .resume__container .panel__grid {
+        gap: 2rem;
+    }
+
+    .resume__container .panel__card {
+        padding: 2rem;
+    }
+}
+
 /*Resume Section End*/
 
 
