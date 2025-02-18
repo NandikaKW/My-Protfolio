@@ -1476,10 +1476,12 @@
     --white: rgba(242, 238, 239);
     --max-width: 1200px;
 }
-.resume__container{
+.resume__container {
     padding: 5rem 8rem;
+
 }
-.resume__container *{
+
+.resume__container * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
