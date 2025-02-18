@@ -1041,7 +1041,7 @@
 .unique-service-section .section__container {
     max-width: var(--max-width);
     margin: auto;
-    padding: 5rem 1rem;
+    /*padding: 5rem 1rem;*/
 }
 
 .unique-service-section .section__header {
@@ -1355,7 +1355,7 @@
     margin: auto;
     padding: 5rem 1rem;
     background-color: var(--secondary-color); /* Apply background color */
-    font-family: "Poppins", sans-serif; /* Apply font family */
+    font-family: 'Poppins', sans-serif; /* Apply font family */
     color: var(--white); /* Apply text color */
 }
 .blog__container .blog__card {
@@ -1413,8 +1413,10 @@
 }
 .blog__container .blog__content h4 {
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 500;
+    color: var(--white);
+
 }
 
 .blog__container .blog__content .section__description {
@@ -1489,13 +1491,13 @@
 .resume__container .section__container{
     max-width: var(--max-width);
     margin: auto;
-    padding: 5rem 1rem;
+    /*padding: 5rem 1rem;*/
 }
 .resume__container .section__header {
     padding-top: 3rem;
     position: relative;
     isolation: isolate;
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
     font-size: 1.5rem;
     font-weight: 500;
     overflow: hidden;
@@ -1675,7 +1677,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 50px 0;
+    /*margin: 10px 0;*/
     border-radius: 20px;
 }
 .resume__container .card {
