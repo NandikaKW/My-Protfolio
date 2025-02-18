@@ -1613,7 +1613,9 @@
     flex-grow: 1;
     aspect-ratio: 1 / 1;
 }
-
+.resume__container .panel__card:hover{
+    background-color: var(--primary-color);
+}
 /*Resume Section End*/
 
 
