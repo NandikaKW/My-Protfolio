@@ -1524,6 +1524,11 @@
 .resume__container a{
     text-decoration: none;
 }
+.resume__container body{
+    background-color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+}
 /*Resume Section End*/
 
 
