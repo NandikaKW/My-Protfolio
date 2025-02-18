@@ -1576,9 +1576,30 @@
     align-items: stretch;
     width: 100%;
 }
-.resume__container .panel__grid.active{
+.resume__container .panel__grid.active {
     display: grid;
     animation: show-panel 0.3s forwards;
+}
+
+.resume__container .panel__grid.close {
+    animation: hide-panel 0.3s forwards;
+}
+@keyframes show-panel {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hide-panel {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 /*Resume Section End*/
 
