@@ -1511,7 +1511,7 @@
     white-space: nowrap;
     opacity: 0.1;
 }
-.resume__container .btn{
+.resume__container .btn {
     padding: 0.75rem 1rem;
     outline: none;
     border: none;
@@ -1520,6 +1520,10 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+}
+.resume__container .btn__primary{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 /*Resume Section End*/
 
