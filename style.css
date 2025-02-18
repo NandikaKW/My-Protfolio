@@ -1532,6 +1532,9 @@
 .resume__container{
     background-color: var(--secondary-color);
 }
+.resume__container .section__header{
+    text-align: center;
+}
 /*Resume Section End*/
 
 
