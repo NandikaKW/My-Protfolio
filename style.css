@@ -1551,6 +1551,17 @@
     line-height: 1.6; /* Improves readability */
 
 }
+.resume__container .resume__tablist{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.resume__container.resume__tablist .btn{
+
+}
 /*Resume Section End*/
 
 
