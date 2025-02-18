@@ -1560,7 +1560,9 @@
     flex-wrap: wrap;
 }
 .resume__container.resume__tablist .btn{
-
+    min-width: 150px;
+    background-color: var(--secondary-color);
+    border: none;
 }
 /*Resume Section End*/
 
