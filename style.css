@@ -1568,7 +1568,14 @@
 .resume__container .resume__tablist .btn:hover {
     background-color: var(--primary-color);
 }
-
+.resume__container .panel__grid{
+    gap: 1.5rem;
+    display: none;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
 /*Resume Section End*/
 
 
