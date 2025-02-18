@@ -1535,6 +1535,22 @@
 .resume__container .section__header{
     text-align: center;
 }
+.resume__container .section__header::before{
+    content: "Resume";
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--white);
+}
+.resume__container .section__description{
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: var(--white);
+    font-size: 1.2rem; /* Adjusted for a slightly larger font */
+    line-height: 1.6; /* Improves readability */
+
+}
 /*Resume Section End*/
 
 
