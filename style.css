@@ -1491,6 +1491,25 @@
     margin: auto;
     padding: 5rem 1rem;
 }
+.resume__container .section__header {
+    padding-top: 3rem;
+    position: relative;
+    isolation: isolate;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    overflow: hidden;
+    color: var(--white);
+}
+.resume__container .section__header::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 4.5rem;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0.1;
+}
 /*Resume Section End*/
 
 
