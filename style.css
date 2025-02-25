@@ -1738,12 +1738,21 @@
     background-color: #0a0a0a;
     color: #f5f5f5;
 }
-.unique-Skill-section{
+.unique-Skill-section {
     --primary-color: rgba(225, 29, 70);
     --secondary-color: rgba(225, 29, 70);
     --card-background: #fff; /* White background for cards */
-
 }
+.unique-Skill-section .skill_section {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 /*Skills Section End*/
 
