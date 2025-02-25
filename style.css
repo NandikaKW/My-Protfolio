@@ -270,6 +270,7 @@
         text-align: left;
     }
 
+
 }
 /*Home Page Section End*/
 
@@ -709,7 +710,7 @@
 .unique-gallery .block2 {
     grid-row: 1;
     grid-column: 3 / span 2;
-    background: url("assets/images/image_2.jpg") center/cover no-repeat;
+    background: url("assets/images/MySelf.jpg") center/cover no-repeat;
     height: 300px;
 }
 .unique-gallery .block3 {
@@ -751,7 +752,7 @@
 .unique-gallery .block9 {
     grid-row: 4;
     grid-column: 1 / span 3;
-    background: url("assets/images/image_9.jpg") center/cover no-repeat;
+    background: url("assets/images/image_13.jpg") center/cover no-repeat;
     height: 400px;
 }
 .unique-gallery .block10 {
@@ -1023,6 +1024,7 @@
     }
 }
 /*Contact Section End*/
+
 /*Service Section Start*/
 .unique-service-section{
     --primary-color: rgba(254, 33, 79);
@@ -1722,6 +1724,13 @@
 }
 
 /*Resume Section End*/
+
+/*Skills Section Start*/
+
+/*Skills Section End*/
+
+
+
 
 
 
