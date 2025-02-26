@@ -1792,6 +1792,20 @@
     grid-gap: 40px;
 }
 
+.unique-Skill-section .card {
+    background-color: var(--card-background);
+    color: var(--primary-color);
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 7px 13px 25px rgba(0, 0, 0, 0.068);
+    border-radius: 6px;
+
+
+}
+/*Skills Section End*/
 
 
 
