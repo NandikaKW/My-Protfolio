@@ -1755,7 +1755,7 @@
     justify-content: center;
     flex-direction: column;
 }
-
+/*Heading Start*/
 .unique-Skill-section .skill_section__header {
     padding-top: 3rem;
     position: relative;
@@ -1784,6 +1784,7 @@
     z-index: 0; /* Changed from -1 to 0 */
     pointer-events: none;
 }
+/*Heading End*!*/
 .unique-Skill-section .container {
     width: 90%;
     padding: 0 13%;
