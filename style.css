@@ -1784,9 +1784,13 @@
     z-index: 0; /* Changed from -1 to 0 */
     pointer-events: none;
 }
-
-/*Skills Section End*/
-
+.unique-Skill-section .container {
+    width: 90%;
+    padding: 0 13%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
 
 
 
