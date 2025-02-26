@@ -1810,6 +1810,22 @@
     font-weight: 600;
     margin-top: 20px;
 }
+/* Media Query Started  */
+@media only screen and (max-width:1220px) {
+    .unique-Skill-section .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .unique-Skill-section .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .unique-Skill-section .heading {
+        font-size: 20px;
+    }
+}
 /*Skills Section End*/
 
 
