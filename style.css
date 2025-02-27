@@ -1922,6 +1922,20 @@
 .Assignment .box:hover p {
     color: #fff;
 }
+
+.Assignment .box button {
+    width: 150px;
+    height: 40px;
+    background-color: #0f0f0f;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 50px;
+    margin-top: 40px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
 /*Assignment Section End*/
 
 
