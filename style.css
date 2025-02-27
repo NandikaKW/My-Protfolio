@@ -1847,6 +1847,29 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.Assignment .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    width: 100%;
+    padding: 20px 0; /* Add padding to the wrapper */
+}
+.Assignment .box {
+    width: 300px;
+    height: 455px;
+    background-color: #fff;
+    border-radius: 5px;
+    /*padding: 20px;*/
+    margin: 20px;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 0;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+    padding-top: 80px;
+}
 /*Assignment Section End*/
 
 
