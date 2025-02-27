@@ -1919,6 +1919,9 @@
 .Assignment .box:hover h3 {
     color: #fff;
 }
+.Assignment .box:hover p {
+    color: #fff;
+}
 /*Assignment Section End*/
 
 
