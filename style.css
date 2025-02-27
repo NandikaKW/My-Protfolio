@@ -1901,6 +1901,10 @@
     background-image: linear-gradient(160deg, #ffffff 0%, rgba(225, 29, 70) 100%);
 
 }
+.Assignment .box:nth-child(3)::after {
+    background-color: #f2f2f2;
+    background-image: linear-gradient(160deg, #f9f9f9 0%, rgba(225, 29, 70) 100%);
+}
 /*Assignment Section End*/
 
 
