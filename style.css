@@ -1941,7 +1941,28 @@
     color: #111;
     background-color: #fff;
 }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .Assignment .box {
+        width: calc(50% - 40px); /* Two cards per row on smaller screens */
+        margin: 20px;
+    }
 
+    .Assignment .box h3 {
+        font-size: 1.3rem; /* Adjust font size for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .Assignment .box {
+        width: calc(100% - 40px); /* One card per row on very small screens */
+        margin: 20px;
+    }
+
+    .Assignment .box h3 {
+        font-size: 1.2rem; /* Adjust font size for small screens */
+    }
+}
 /*Assignment Section End*/
 
 
