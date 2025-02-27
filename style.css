@@ -1785,6 +1785,7 @@
     pointer-events: none;
 }
 /*Heading End*!*/
+/* Cards Grid */
 .unique-Skill-section .container {
     width: 90%;
     padding: 0 13%;
@@ -1793,6 +1794,7 @@
     grid-gap: 40px;
 }
 
+/* Skill Cards */
 .unique-Skill-section .card {
     background-color: var(--card-background);
     color: var(--primary-color);
@@ -1804,13 +1806,14 @@
     box-shadow: 7px 13px 25px rgba(0, 0, 0, 0.068);
     border-radius: 6px;
 
-
 }
-.unique-Skill-section .card p{
+
+.unique-Skill-section .card p {
     font-size: 21px;
     font-weight: 600;
     margin-top: 20px;
 }
+
 /* Media Query Started  */
 @media only screen and (max-width:1220px) {
     .unique-Skill-section .container {
@@ -1827,8 +1830,13 @@
         font-size: 20px;
     }
 }
-/*Skills Section End*/
 
+/*Skills Section End*/
+/*Assignment Section Start*/
+.Assignment {
+
+}
+/*Assignment Section End*/
 
 
 
