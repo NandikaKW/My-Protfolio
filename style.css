@@ -1936,6 +1936,12 @@
     text-transform: capitalize;
     cursor: pointer;
 }
+
+.Assignment .box:hover button {
+    color: #111;
+    background-color: #fff;
+}
+
 /*Assignment Section End*/
 
 
