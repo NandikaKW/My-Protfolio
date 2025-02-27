@@ -1834,6 +1834,13 @@
 /*Skills Section End*/
 /*Assignment Section Start*/
 .Assignment {
+    background-color: rgba(225, 29, 70);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
 
 }
 /*Assignment Section End*/

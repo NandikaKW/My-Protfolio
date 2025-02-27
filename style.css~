@@ -1755,7 +1755,7 @@
     justify-content: center;
     flex-direction: column;
 }
-
+/*Heading Start*/
 .unique-Skill-section .skill_section__header {
     padding-top: 3rem;
     position: relative;
@@ -1784,15 +1784,62 @@
     z-index: 0; /* Changed from -1 to 0 */
     pointer-events: none;
 }
+/*Heading End*!*/
+/* Cards Grid */
 .unique-Skill-section .container {
     width: 90%;
     padding: 0 13%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
 }
 
+/* Skill Cards */
+.unique-Skill-section .card {
+    background-color: var(--card-background);
+    color: var(--primary-color);
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 7px 13px 25px rgba(0, 0, 0, 0.068);
+    border-radius: 6px;
 
+}
+
+.unique-Skill-section .card p {
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Media Query Started  */
+@media only screen and (max-width:1220px) {
+    .unique-Skill-section .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .unique-Skill-section .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .unique-Skill-section .heading {
+        font-size: 20px;
+    }
+}
+
+/*Skills Section End*/
+/*Assignment Section Start*/
+.Assignment {
+    background-color: rgba(225, 29, 70);
+    
+
+
+}
+/*Assignment Section End*/
 
 
 
