@@ -55,6 +55,7 @@
     <header class="header__container">
         <div class="header__image">
             <img src="assets/images/MySelf.jpg" alt="header image">
+            <i class="fa-solid fa-heart heart" id="heart-icon"></i> <!-- Added ID for easy selection -->
         </div>
         <div class="header__content">
             <h5>Welcome To My World</h5>
@@ -488,6 +489,7 @@
 </section>
 <!--Assignments Section End-->
 
+
 <!--Teachers Who Teach Me Section Start-->
 <div class="Teachers-Section" id="Teachers">
     <div class="section__container footer__container">
@@ -612,6 +614,7 @@
                                     <div class="job">Web Devloper</div>
                                 </div>
                                 <div class="media-icons">
+
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -631,6 +634,7 @@
     </div>
 </div>
 <!--Teachers Who Teach Me  Section End-->
+
 
 
 
@@ -789,9 +793,6 @@
 </footer>
 <!-- Footer Section End-->
 
-
-<script src="js-fluid-meter.js"></script> <!-- Link to FluidMeter library -->
-<script src="script.js"></script> <!-- Link to your custom JavaScript -->
 
 
 </body>
