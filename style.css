@@ -1962,17 +1962,19 @@
 }
 /*Assignment Section End*/
 /*Header Image Heart Animation Start*/
+
 #heart-icon {
     display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 250px;
+    font-size: 250px; /* Adjust size as needed */
     color: rgba(225, 29, 70);
     animation: heartBeat 1s ease-in-out;
-
 }
+
+/* Define the heart beat animation */
 @keyframes heartBeat {
     0% {
         transform: translate(-50%, -50%) scale(1);
@@ -1983,8 +1985,9 @@
     100% {
         transform: translate(-50%, -50%) scale(1);
     }
-
 }
+/*Header Image Heart Animation End*/
+
 
 
 
