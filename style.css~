@@ -1969,9 +1969,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 250px;
-    color: rgba(225, 29, 70);
-    animation: heartBeat 1s ease-in-out;
-
+    color: rgba(225);
 }
 
 
