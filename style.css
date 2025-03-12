@@ -1491,6 +1491,11 @@
     overflow: hidden;
 
 }
+.blog__socials a:hover{
+    background: var(--primary-color);
+    transform: rotate(360deg) scale(1.2);
+
+}
 
 
 @media (width > 540px) {
