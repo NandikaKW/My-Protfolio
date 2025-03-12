@@ -72,13 +72,16 @@
                             <a href="#"><i class="ri-facebook-line"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ri-telegram-line"></i></a>
+                            <a href="https://t.me/Nandika Kaweesha" target="_blank">
+                                <i class="ri-telegram-line"></i>
+                            </a>
+
                         </li>
                         <li>
                             <a href="#"><i class="ri-instagram-line"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ri-whatsapp-line"></i></a>
+                            <a href="https://wa.me/0715152955"><i class="ri-whatsapp-line"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -153,10 +156,23 @@
                 </div>
                 <ul class="icons">
                     <li><i class="fab fa-facebook-f"></i></li>
-                    <li><i class="fab fa-linkedin"></i></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/Nandika Kaweesha" target="_blank" class="linkedin-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+
                     <li><i class="fab fa-instagram"></i></li>
-                    <li><i class="fab fa-whatsapp"></i></li>
-                    <li><i class="fab fa-github"></i></li>
+                    <li>
+                        <a href="https://wa.me/0715152955" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/NandikaKW" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -390,7 +406,9 @@
                 <div>
                     <a href="#">View On GitHub</a>
                     <div class="blog__socials">
-                        <a href="#"><i class="ri-git-merge-fill"></i></a>
+                        <a href="https://github.com/NandikaKW" target="_blank">
+                            <i class="ri-github-fill"></i> <!-- Corrected GitHub Icon -->
+                        </a>
                     </div>
                 </div>
             </div>
@@ -407,7 +425,7 @@
                 <div>
                     <a href="#">View On GitHub</a>
                     <div class="blog__socials">
-                        <a href="#"><i class="ri-git-merge-fill"></i></a>
+                        <a href="https://github.com/NandikaKW"><i class="ri-git-merge-fill"></i></a>
                     </div>
                 </div>
             </div>
@@ -424,7 +442,7 @@
                 <div>
                     <a href="#">View On GitHub</a>
                     <div class="blog__socials">
-                        <a href="#"><i class="ri-git-merge-fill"></i></a>
+                        <a href="https://github.com/NandikaKW"><i class="ri-git-merge-fill"></i></a>
                     </div>
                 </div>
             </div>
@@ -446,7 +464,7 @@
                 <ul>Assignment 03</ul>
                 <ul>Assignment 04</ul>
                 <ul>Assignment 05</ul>
-                <a href="#"><button>View In Github</button></a>
+                <a href="https://github.com/NandikaKW"><button>View In Github</button></a>
             </div>
             <div class="box">
                 <h3>DataBase Management  Assignments</h3>
@@ -455,7 +473,7 @@
                 <ul>Assignment 03</ul>
                 <ul>Assignment 04</ul>
                 <ul>Assignment 05</ul>
-                <a href="#"><button>View In Github</button></a>
+                <a href="https://github.com/NandikaKW"><button>View In Github</button></a>
             </div>
             <div class="box">
                 <h3>Internet Technology Assignments</h3>
@@ -464,7 +482,7 @@
                 <ul>Assignment 03</ul>
                 <ul>Assignment 04</ul>
                 <ul>Assignment 05</ul>
-                <a href="#"><button>View In Github</button></a>
+                <a href="https://github.com/NandikaKW"><button>View In Github</button></a>
             </div>
             <div class="box">
                 <h3>Software Enginering Assignments</h3>
@@ -473,7 +491,7 @@
                 <ul>Assignment 03</ul>
                 <ul>Assignment 04</ul>
                 <ul>Assignment 05</ul>
-                <a href="#"><button>View In Github</button></a>
+                <a href="https://github.com/NandikaKW"><button>View In Github</button></a>
             </div>
             <div class="box">
                 <h3>Oject Oriented Programming Assignments</h3>
@@ -482,7 +500,7 @@
                 <ul>Assignment 03</ul>
                 <ul>Assignment 04</ul>
                 <ul>Assignment 05</ul>
-                <a href="#"><button>View In Github</button></a>
+                <a href="https://github.com/NandikaKW"><button>View In Github</button></a>
             </div>
         </div>
     </div>
@@ -490,150 +508,7 @@
 <!--Assignments Section End-->
 
 
-<!--Teachers Who Teach Me Section Start-->
-<div class="Teachers-Section" id="Teachers">
-    <div class="section__container footer__container">
-        <h2 class="section__header">Teachers Who Teach Me</h2>
-        <div class="container">
-            <input type="radio" name="dot" id="one">
-            <input type="radio" name="dot" id="two">
-            <div class="main-card">
-                <div class="cards">
 
-              <!--First Card Start-->
-                    <div class="card">
-                        <div class="content">
-                            <div class="img">
-                                <img src="" alt="image">
-                            </div>
-                            <div class="details">
-                                <div class="name">Shamodha Sahan</div>
-                                <div class="job">Devoops Enginner</div>
-                            </div>
-                            <div class="media-icons">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                           <!--First Card End-->
-
-                     <!--Second Card Start-->
-                    <div class="card">
-                        <div class="content">
-                            <div class="img">
-                                <img src="" alt="image">
-                            </div>
-                            <div class="details">
-                                <div class="name">Kavidu Akash</div>
-                                <div class="name">Web Developer</div>
-
-                            </div>
-                            <div class="media-icons">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                       <!--Second Card End-->
-
-                      <!--Third Card Start-->
-                    <div class="card">
-                        <div class="content">
-                            <div class="img">
-                                <img src="" alt="image">
-                            </div>
-                            <div class="details">
-                                <div class="name">Jasmine Carter</div>
-                                <div class="name">UI Designer</div>
-                            </div>
-                            <div class="media-icons">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                       <!--Third Card end-->
-
-                          <!--Fourth Card Start-->
-                    <div class="cards">
-                        <div class="card">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="" alt="image">
-                                </div>
-                                <div class="details">
-                                    <div class="name">Appolo Reef</div>
-                                    <div class="name">Web Designer</div>
-                                </div>
-
-                                <div class="media-icons">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                           <!--Fourth Card end-->
-
-                       <!--Fifth Card Start-->
-                        <div class="card">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="" alt="image">
-                                </div>
-                                <div class="details">
-                                    <div class="name">Adrina Calvo</div>
-                                    <div class="job">UI Designer</div>
-                                </div>
-                                <div class="media-icons">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                          <!--Fifth Card End-->
-
-                         <!--Sixth card Start-->
-                        <div class="card">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="" alt="image">
-                                </div>
-                                <div class="details">
-                                    <div class="name">Nicole Lewis</div>
-                                    <div class="job">Web Devloper</div>
-                                </div>
-                                <div class="media-icons">
-
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                     <!--Sixth card End-->
-                    </div>
-                </div>
-                <div class="button">
-                    <label for="one" class="active one"></label>
-                    <label for="two" class="two"></label>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Teachers Who Teach Me  Section End-->
 
 
 
@@ -675,6 +550,7 @@
     </div>
 </div>
 <!--My Skill Section  End-->
+
 
 <!--Contact Us Section Start-->
 <footer class="footer" id="contact">
@@ -792,6 +668,10 @@
 
 </footer>
 <!-- Footer Section End-->
+
+
+
+
 
 
 

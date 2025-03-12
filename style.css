@@ -1477,6 +1477,7 @@
  /*GitHub Button Animation*/
 
 
+
 @media (width > 540px) {
     .blog__container .blog__grid {
         grid-template-columns: repeat(2, 1fr);

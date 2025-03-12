@@ -828,23 +828,55 @@
         grid-column: 1 / 7;
     }
 }
+@media screen and (max-width: 768px) {
+    .unique-gallery #cancel-btn {
+        font-size: 2rem;  /* Reduce size for small screens */
+        top: 5px;
+        right: 5px;
+    }
+}
 
+
+/*.unique-gallery .image-view {*/
+/*    position: fixed;*/
+/*    top: 20px;*/
+/*    bottom: 20px;*/
+/*    right: 4%;*/
+/*    left: 4%;*/
+/*    display: none;*/
+/*}*/
 .unique-gallery .image-view {
     position: fixed;
-    top: 20px;
-    bottom: 20px;
-    right: 4%;
-    left: 4%;
+    top: 10px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;  /* Adjust width for smaller screens */
+    height: 90vh;
     display: none;
+    z-index: 999;  /* Ensure it's above other elements */
+    background: rgba(0, 0, 0, 0.8);
 }
+
+/*.unique-gallery #cancel-btn {*/
+/*    position: absolute;*/
+/*    right: 5px;*/
+/*    font-size: 2.4rem;*/
+/*    cursor: pointer;*/
+/*    color: rgb(240, 0, 52);*/
+/*    transition: color 0.3s linear;*/
+/*}*/
 .unique-gallery #cancel-btn {
-    position: absolute;
-    right: 5px;
+    position: fixed;  /* Change from absolute to fixed */
+    top: 10px;  /* Position it near the top */
+    right: 10px;  /* Position it near the right */
     font-size: 2.4rem;
     cursor: pointer;
     color: rgb(240, 0, 52);
     transition: color 0.3s linear;
+    z-index: 1000;  /* Ensure it's above other elements */
 }
+
 
 .unique-gallery #cancel-btn:hover {
     color: rgba(225, 29, 70);
@@ -1442,6 +1474,8 @@
     align-items: center;
     gap: 1rem;
 }
+ /*GitHub Button Animation*/
+
 
 @media (width > 540px) {
     .blog__container .blog__grid {
@@ -1831,7 +1865,7 @@
 /*Skills Section End*/
 /*Assignment Section Start*/
 .Assignment {
-    background-color: rgba(225, 29, 70);
+    background-color: rgba(14, 14, 14, 0.97);
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -1962,17 +1996,19 @@
 }
 /*Assignment Section End*/
 /*Header Image Heart Animation Start*/
+
 #heart-icon {
     display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 250px;
+    font-size: 250px; /* Adjust size as needed */
     color: rgba(225, 29, 70);
     animation: heartBeat 1s ease-in-out;
-
 }
+
+/* Define the heart beat animation */
 @keyframes heartBeat {
     0% {
         transform: translate(-50%, -50%) scale(1);
@@ -1983,8 +2019,39 @@
     100% {
         transform: translate(-50%, -50%) scale(1);
     }
-
 }
+/*Header Image Heart Animation End*/
+/*About Me Section Links*/
+.fa-whatsapp {
+    color: white; /* Change icon color to white */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 24px; /* Adjust the size if needed */
+}
+.fa-whatsapp:hover {
+    color: #050505; /* Optional: Change to WhatsApp green on hover */
+}
+
+.fa-github {
+    color: white; /* Change icon color to white */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 24px; /* Adjust the size if needed */
+}
+.fa-github:hover {
+    color: #050505; /* Optional: Change to WhatsApp green on hover */
+}
+
+.fa-linkedin {
+    color: white; /* Change icon color to white */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 24px; /* Adjust the size if needed */
+}
+.fa-github:hover {
+    color: #050505; /* Optional: Change to WhatsApp green on hover */
+}
+
+
+
+
 
 
 
