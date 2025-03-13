@@ -2101,8 +2101,14 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: none;
     animation: slideIn 0.5s ease-out, fadeOut 0.5s ease-in 2.5s;
-
-
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
 
 }
 
