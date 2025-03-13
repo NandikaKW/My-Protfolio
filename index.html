@@ -586,20 +586,54 @@
                 </div>
             </div>
             <div class="footer__form">
-                <form action="/">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Web3Forms Access Key -->
+                    <input type="hidden" name="access_key" value="478523b3-9556-414c-9e7e-012567918dde" />
+
                     <div class="input__row">
-                        <input type="text" placeholder="Your Name" />
-                        <input type="text" placeholder="Your Email" />
+                        <input type="text" name="name" placeholder="Your Name" required />
+                        <input type="email" name="email" placeholder="Your Email" required />
                     </div>
-                    <textarea placeholder="Your Message"></textarea>
-                    <button  class="btn btn__primary">Send Message</button>
+
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn btn__primary">Send Message</button>
                 </form>
             </div>
         </div>
     </div>
-    <!--    <div class="footer__bar">-->
-    <!--        Copyright © 2024 Web Design Mastery. All rights reserved.-->
-    <!--    </div>-->
+
+    <!-- Success Message -->
+    <div id="successMessage" class="success-message">
+        <p>Message sent successfully! 🎉</p>
+    </div>
+
+    <script>
+        document.querySelector("form").addEventListener("submit", async function (e) {
+            e.preventDefault(); // Prevent default form submission
+
+            let form = e.target;
+            let formData = new FormData(form);
+
+            let response = await fetch(form.action, {
+                method: "POST",
+                body: formData
+            });
+
+            let result = await response.json();
+            if (result.success) {
+                // Show success message
+                let successMessage = document.getElementById("successMessage");
+                successMessage.style.display = "block";
+                setTimeout(() => {
+                    successMessage.style.display = "none";
+                }, 3000); // Hide after 3 seconds
+                form.reset(); // Clear form fields
+            } else {
+                alert("Error sending message. Please try again.");
+            }
+        });
+    </script>
 </footer>
 <!--Contact Us Section End-->
 

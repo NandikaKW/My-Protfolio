@@ -1469,14 +1469,55 @@
 .blog__container .blog__content a:hover {
     color: var(--primary-color);
 }
-.blog__container .blog__socials {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
+/*.blog__container .blog__socials {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    gap: 1rem;*/
+/*}*/
  /*GitHub Button Animation*/
+.blog__socials {
+    margin-top: 10px;
+    text-align: center;
+}
 
+.blog__socials a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #fff;
+    background: #24292e;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
 
+.blog__socials a:hover {
+    background: var(--primary-color);
+    transform: rotate(360deg) scale(1.2);
+}
+
+.blog__socials a i {
+    position: relative;
+    z-index: 2;
+}
+
+/* Button Glowing Effect */
+.blog__socials a::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 10%, transparent 50%);
+    top: -50%;
+    left: -50%;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog__socials a:hover::before {
+    transform: scale(1);
+}
 @media (width > 540px) {
     .blog__container .blog__grid {
         grid-template-columns: repeat(2, 1fr);
@@ -2047,6 +2088,39 @@
 }
 .fa-github:hover {
     color: #050505; /* Optional: Change to WhatsApp green on hover */
+}
+
+/*Successful Message*/
+/* Success Message Styles */
+.success-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(225, 29, 70);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    animation: slideIn 0.5s ease-out, fadeOut 0.5s ease-in 2.5s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 

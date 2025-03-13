@@ -425,7 +425,9 @@
                 <div>
                     <a href="#">View On GitHub</a>
                     <div class="blog__socials">
-                        <a href="https://github.com/NandikaKW"><i class="ri-git-merge-fill"></i></a>
+                        <a href="https://github.com/NandikaKW" target="_blank">
+                            <i class="ri-github-fill"></i> <!-- Corrected GitHub Icon -->
+                        </a>
                     </div>
                 </div>
             </div>
@@ -442,7 +444,9 @@
                 <div>
                     <a href="#">View On GitHub</a>
                     <div class="blog__socials">
-                        <a href="https://github.com/NandikaKW"><i class="ri-git-merge-fill"></i></a>
+                        <a href="https://github.com/NandikaKW" target="_blank">
+                            <i class="ri-github-fill"></i> <!-- Corrected GitHub Icon -->
+                        </a>
                     </div>
                 </div>
             </div>
@@ -582,17 +586,47 @@
                 </div>
             </div>
             <div class="footer__form">
-                <form action="/">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Web3Forms Access Key -->
+                    <input type="hidden" name="access_key" value="478523b3-9556-414c-9e7e-012567918dde" />
+
                     <div class="input__row">
-                        <input type="text" placeholder="Your Name" />
-                        <input type="text" placeholder="Your Email" />
+                        <input type="text" name="name" placeholder="Your Name" required />
+                        <input type="email" name="email" placeholder="Your Email" required />
                     </div>
-                    <textarea placeholder="Your Message"></textarea>
-                    <button  class="btn btn__primary">Send Message</button>
+
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn btn__primary">Send Message</button>
                 </form>
             </div>
         </div>
     </div>
+
+
+
+    <script>
+        document.querySelector("form").addEventListener("submit", async function (e) {
+            e.preventDefault(); // Prevent default form submission
+
+            let form = e.target;
+            let formData = new FormData(form);
+
+            let response = await fetch(form.action, {
+                method: "POST",
+                body: formData
+            });
+
+            let result = await response.json();
+            if (result.success) {
+                alert("Message sent successfully!");
+                form.reset(); // Clear form fields
+            } else {
+                alert("Error sending message. Please try again.");
+            }
+        });
+    </script>
+
     <!--    <div class="footer__bar">-->
     <!--        Copyright © 2024 Web Design Mastery. All rights reserved.-->
     <!--    </div>-->
