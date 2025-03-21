@@ -290,6 +290,26 @@
     }
 
 }
+@media (min-width: 426px) and (max-width: 767px) {
+    .custom-section .header__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .custom-section .header__image {
+        order: -1;
+    }
+
+    .custom-section .header__content h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .custom-section .links {
+        justify-content: center;
+    }
+
+}
 
 
 
