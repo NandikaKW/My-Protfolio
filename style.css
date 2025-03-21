@@ -320,6 +320,17 @@
         box-shadow: 10px 10px 15px #d7dbe6, -10px -10px 15px var(--white);
     }
 }
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .custom-section .header__image img {
+        max-width: 500px;
+    }
+
+    .custom-section .header__image::before {
+        max-width: 24rem;
+        box-shadow: 10px 10px 15px #d7dbe6, -10px -10px 15px var(--white);
+    }
+
+}
 
 
 
