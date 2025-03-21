@@ -310,6 +310,16 @@
     }
 
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-section .header__image img {
+        max-width: 450px;
+    }
+
+    .custom-section .header__image::before {
+        max-width: 22rem;
+        box-shadow: 10px 10px 15px #d7dbe6, -10px -10px 15px var(--white);
+    }
+}
 
 
 
