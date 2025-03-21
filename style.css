@@ -679,7 +679,9 @@
 .unique-section .about-para p {
     font-weight: 500;
     padding: 0.5rem;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
+    font-size: x-large;
+    color: var(--text-dark);
 }
 
 /* Media Query for Larger Screens */
@@ -753,6 +755,7 @@
         margin: 0 0.5rem; /* Restore margin for larger screens */
     }
 }
+
 /*About Me Section End*/
 
 
