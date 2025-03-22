@@ -679,9 +679,9 @@
 .unique-section .about-para p {
     font-weight: 500;
     padding: 0.5rem;
-    /*opacity: 0.8;*/
-    font-size: x-large;
+    opacity: 0.8;
     color: var(--text-dark);
+    font-size: large;
 }
 
 /* Media Query for Larger Screens */
@@ -1247,7 +1247,7 @@
 .unique-service-section .service__card p{
     margin-bottom: 1rem;
     color: var(--text-light);
-    font-size: 1.0rem;
+    font-size: 1.2rem;
 }
 .unique-service-section .service__container .section__description{
     margin-bottom: 1rem;
