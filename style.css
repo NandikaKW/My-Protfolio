@@ -807,6 +807,72 @@
         width: 100%;
     }
 }
+/* Media Query for Tablets (768px to 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .unique-section .about-wrapper {
+        flex-direction: column;
+    }
+
+    .unique-section .about-left {
+        padding: 1.5rem;
+    }
+
+    .unique-section .about-left-content > div {
+        padding: 1.5rem;
+    }
+
+    .unique-section .about-img img {
+        width: 120px;
+    }
+
+    .unique-section .about-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .unique-section .shadow {
+        width: 120px;
+        height: 120px;
+    }
+
+    .unique-section .about-left-content h2 {
+        font-size: 1.3rem;
+        margin: 1.2rem 0 0.5rem 0;
+    }
+
+    .unique-section .about-left-content h3 {
+        letter-spacing: 2.5px;
+        margin-top: 1rem;
+    }
+
+    .unique-section .icons li {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .unique-section .about-right {
+        padding: 1.5rem;
+    }
+
+    .unique-section .about-right h1 {
+        font-size: 5rem;
+    }
+
+    .unique-section .about-right h2 {
+        font-size: 1.8rem;
+    }
+
+    .unique-section .about-btns {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .unique-section .btn {
+        width: 120px;
+    }
+}
+
 
 /*About Me Section End*/
 
