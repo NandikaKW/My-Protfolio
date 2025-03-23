@@ -742,6 +742,71 @@
         margin: 0 0.5rem; /* Restore margin for larger screens */
     }
 }
+/* Media Query for Phones (up to 767px) */
+@media screen and (max-width: 767px) {
+    .unique-section .about-wrapper {
+        flex-direction: column;
+    }
+
+    .unique-section .about-left {
+        padding: 1rem;
+    }
+
+    .unique-section .about-left-content > div {
+        padding: 1rem;
+    }
+
+    .unique-section .about-img img {
+        width: 100px;
+    }
+
+    .unique-section .about-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .unique-section .shadow {
+        width: 100px;
+        height: 100px;
+    }
+
+    .unique-section .about-left-content h2 {
+        font-size: 1.2rem;
+        margin: 1rem 0 0.5rem 0;
+    }
+
+    .unique-section .about-left-content h3 {
+        letter-spacing: 2px;
+        margin-top: 0.8rem;
+    }
+
+    .unique-section .icons li {
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+
+    .unique-section .about-right {
+        padding: 1rem;
+    }
+
+    .unique-section .about-right h1 {
+        font-size: 4rem;
+    }
+
+    .unique-section .about-right h2 {
+        font-size: 1.5rem;
+    }
+
+    .unique-section .about-btns {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .unique-section .btn {
+        width: 100%;
+    }
+}
 
 /*About Me Section End*/
 
