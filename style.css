@@ -1149,7 +1149,7 @@
 .unique-gallery #cancel-btn:hover {
     color: rgba(225, 29, 70);
 }
-/*Gallery Scetion End*/
+/*Gallery Section End*/
 
 /*  contact section  Start*/
 .footer{
@@ -1512,11 +1512,14 @@
 .footer-Section .social-links{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
 }
 .footer-Section .social-links a {
-    margin: 1.5rem 0.5rem;
+    /*margin: 1.5rem 0.5rem;*/
     transition: var(--transition);
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 40px; /* Ensures equal width */
@@ -1524,8 +1527,8 @@
     border-radius: 50%; /* Keeps the icons perfectly circular */
     background-color: #333; /* Dark background */
     color: white;
-    font-size: 20px; /* Icon size */
-    flex-shrink: 0; /* Prevents icons from being distorted */
+    font-size: 1.5rem; /* Icon size */
+
 }
 
 .footer-Section .social-links a:hover{
@@ -1623,6 +1626,24 @@
         justify-content: flex-start;
     }
 
+}
+@media (max-width: 425px) {
+    .footer-Section .social-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 12px; /* 8px vertical, 12px horizontal gap */
+        margin: 10px auto;
+        padding: 0 5px;
+    }
+
+    .footer-Section .social-links a {
+        font-size: 1.2rem;
+        padding: 6px;
+        flex: 0 0 calc(25% - 12px); /* 4 icons per row */
+        text-align: center;
+        margin: 0;
+    }
 }
 /*Footer Section End*!*/
 /*My Projects Section Start*/
@@ -1990,6 +2011,17 @@
 /*.resume__container .banner{*/
 /*    background-color: var(--primary-color);*/
 /*}*/
+/*This Is not Apply .Case an error*/
+@media (max-width: 425px) {
+    .resume__container .section__header::before {
+        font-size: 3rem;         /* Reduced from 4.5rem */
+        line-height: 3.5rem;     /* Reduced from 6rem */
+        bottom: -5px;            /* Better vertical positioning */
+        white-space: normal;     /* Allow text wrapping */
+        width: 100%;            /* Full width to help centering */
+        transform: translateX(-50%) scale(0.8); /* Slightly scale down */
+    }
+}
 @media (width > 540px) {
     .resume__container .panel__grid {
         grid-template-columns: repeat(2, 1fr);
