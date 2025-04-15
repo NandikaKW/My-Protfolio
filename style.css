@@ -1743,16 +1743,16 @@
     max-width: 100%;
     margin: auto;
     padding: 5rem 1rem;
-    background-color: var(--secondary-color); /* Apply background color */
-    font-family: 'Poppins', sans-serif; /* Apply font family */
-    color: var(--white); /* Apply text color */
+    background-color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
 }
 .blog__container .blog__card {
     display: flex;
     flex-direction: column;
     background-color: var(--secondary-color-dark);
     border-radius: 8px;
-    overflow: hidden; /* Ensures the image doesn't overflow the card */
+    overflow: hidden;
 }
 .blog__container .section__header {
     padding-top: 3rem;
@@ -1778,8 +1778,8 @@
 .blog__container img {
     display: flex;
     width: 100%;
-    height: 200px; /* Fixed height for all images */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+    height: 200px;
+    object-fit: cover;
 }
 
 .blog__container a {
@@ -1796,7 +1796,7 @@
 .blog__container .blog__content {
     padding: 1rem;
     background-color: var(--secondary-color-dark);
-    flex-grow: 1; /* Ensures the content takes up remaining space */
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
@@ -1809,7 +1809,7 @@
 }
 
 .blog__container .blog__content .section__description {
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
 }
 .blog__container .blog__content > div {
     display: flex;
@@ -2191,7 +2191,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.unique-Skill-section .skill_section__header,
+.unique-Skill-section .card p {
+    font-family: "Times New Roman", Times, serif;
+}
 .unique-Skill-section {
     padding: 0;
     margin: 0;
@@ -2199,8 +2202,6 @@
     font-family: "Poppins", sans-serif;
     background-color: rgba(14, 14, 14, 0.97);
     color: #f5f5f5;
-
-    /* Corrected Variables */
     --primary-color: rgba(225, 29, 70, 1);
     --secondary-color: rgba(225, 29, 70, 1);
     --card-background: #fff;
@@ -2229,7 +2230,6 @@
     color: var(--white);
 }
 
-/* Fix the visibility issue of "Contact Us" */
 .unique-Skill-section .skill_section__header::before {
     position: absolute;
     top: 50%;
@@ -2239,10 +2239,10 @@
     font-weight: 600;
     line-height: 6rem;
     white-space: nowrap;
-    opacity: 0.5; /* Increased opacity */
+    opacity: 0.5;
     content: "Talents";
     color: var(--white);
-    z-index: 0; /* Changed from -1 to 0 */
+    z-index: 0;
     pointer-events: none;
 }
 /*Heading End*!*/
