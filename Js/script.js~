@@ -42,7 +42,7 @@ initializeFluidMeter("card-5", 62);  // Figma
 initializeFluidMeter("card-6", 70);  // Photoshop
 initializeFluidMeter("card-7", 55);  // Draw.io
 initializeFluidMeter("card-8", 80);  //Microsoft Office
-initializeFluidMeter("card-9", 70);  // Canvas
+initializeFluidMeter("card-9", 70);  // Canva
 
 
 
