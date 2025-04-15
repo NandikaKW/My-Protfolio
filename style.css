@@ -1158,14 +1158,7 @@
     background: rgba(0, 0, 0, 0.8);
 }
 
-/*.unique-gallery #cancel-btn {*/
-/*    position: absolute;*/
-/*    right: 5px;*/
-/*    font-size: 2.4rem;*/
-/*    cursor: pointer;*/
-/*    color: rgb(240, 0, 52);*/
-/*    transition: color 0.3s linear;*/
-/*}*/
+
 .unique-gallery #cancel-btn {
     position: fixed;  /* Change from absolute to fixed */
     top: 10px;  /* Position it near the top */
