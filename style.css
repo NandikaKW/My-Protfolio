@@ -1415,7 +1415,9 @@
     display: grid;
     gap: 2rem;
 }
-.unique-service-section .service__card{
+
+
+.unique-service-section .service__card {
     color: #fff;
     padding: 0.7em 1.7em;
     font-size: 18px;
@@ -1427,6 +1429,49 @@
     box-shadow:
             6px 6px 12px #0a0a0a,
             -6px -6px 12px #2f2f2f;
+}
+
+.unique-service-section .service__card h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem; /* Default size */
+    font-weight: 500;
+    color: var(--white);
+}
+
+.unique-service-section .service__card p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    font-size: 1rem; /* Default size */
+}
+
+/* Media query for 1440px and above */
+@media (min-width: 1440px) {
+    .unique-service-section .service__card h4 {
+        font-size: 1.4rem;
+    }
+    .unique-service-section .service__card p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Media query for 768px to 1024px */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .unique-service-section .service__card h4 {
+        font-size: 1.1rem;
+    }
+    .unique-service-section .service__card p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Media query for 425px and below */
+@media (max-width: 425px) {
+    .unique-service-section .service__card h4 {
+        font-size: 1rem;
+    }
+    .unique-service-section .service__card p {
+        font-size: 0.8rem;
+    }
 }
 .unique-service-section .service__card:hover{
     background-color: var(--primary-color);
@@ -1449,24 +1494,41 @@
     color: var(--primary-color);
 }
 
-.unique-service-section .service__card h4{
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: var(--white);
-}
-.unique-service-section .service__card p{
+
+.unique-service-section .service__container .section__description {
     margin-bottom: 1rem;
     color: var(--text-light);
-    font-size: 1.2rem;
+    font-size: 1.1rem; /* Default size */
+    word-spacing: 0.1rem;
+    line-height: 1.6;
+    text-align: justify;
 }
-.unique-service-section .service__container .section__description{
-    margin-bottom: 1rem;
-    color: var(--text-light);
-    font-size: 1.2rem;
-    word-spacing: 0.1rem; /* Adds proper spacing between words */
-    line-height: 1.6; /* Improves readability */
-    text-align: justify; /* Aligns text properly */
+
+/* Media query for 1440px and above */
+@media (min-width: 1440px) {
+    .unique-service-section .service__container .section__description {
+        font-size: 1.3rem;
+        line-height: 1.7;
+    }
+}
+
+/* Media query for 768px to 1024px */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .unique-service-section .service__container .section__description {
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: left; /* Often better for tablets than justify */
+    }
+}
+
+/* Media query for 425px and below */
+@media (max-width: 425px) {
+    .unique-service-section .service__container .section__description {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        text-align: left; /* Better for mobile readability */
+        word-spacing: normal;
+    }
 }
 .unique-service-section .service__card span{
     display: flex;
