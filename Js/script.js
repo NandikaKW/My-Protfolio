@@ -1,0 +1,50 @@
+
+function initializeFluidMeter(containerId, fillPercentage) {
+    var fm = new FluidMeter();
+    fm.init({
+        targetContainer: document.getElementById(containerId),
+        fillPercentage: fillPercentage,
+        options: {
+            fontSize: "50px",
+            fontFamily: "Poppins",
+            fontFillStyle: "white",
+            drawShadow: true,
+            drawText: true,
+            drawPercentageSign: true,
+            drawBubbles: true,
+            size: 300,
+            borderWidth: 25,
+            backgroundColor: "#fafafa",
+            foregroundColor: "#fafafa",
+            foregroundFluidLayer: {
+                fillStyle: "#E11D46",
+                angularSpeed: 100,
+                maxAmplitude: 12,
+                frequency: 30,
+                horizontalSpeed: -150
+            },
+            backgroundFluidLayer: {
+                fillStyle: "#E11D46",
+                angularSpeed: 100,
+                maxAmplitude: 9,
+                frequency: 30,
+                horizontalSpeed: 150
+            }
+        }
+    });
+}
+
+initializeFluidMeter("card-1", 85);  // HTML
+initializeFluidMeter("card-2", 74);  // CSS
+initializeFluidMeter("card-3", 65);  // JavaScript
+initializeFluidMeter("card-4", 78);  // Java
+initializeFluidMeter("card-5", 62);  // Figma
+initializeFluidMeter("card-6", 70);  // Photoshop
+initializeFluidMeter("card-7", 55);  // Draw.io
+initializeFluidMeter("card-8", 80);  //Microsoft Office
+initializeFluidMeter("card-9", 70);  // Canva
+
+
+
+
+
