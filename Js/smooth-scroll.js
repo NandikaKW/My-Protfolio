@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const menuBtn = document.getElementById('menu-btn');
     const navLinksContainer = document.getElementById('nav-links');
-
     menuBtn.addEventListener('click', function() {
         navLinksContainer.classList.toggle('show');
     });
