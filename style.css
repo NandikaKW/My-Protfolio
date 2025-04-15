@@ -707,51 +707,51 @@
     .unique-section .about-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        height: 100vh; /* Restore height for larger screens */
+        height: 100vh;
     }
 
     .unique-section .about-left {
-        height: 100vh; /* Restore height for larger screens */
-        padding: 0; /* Remove padding for larger screens */
+        height: 100vh;
+        padding: 0;
     }
 
     .unique-section .about-left-content > div {
-        padding: 4rem 4rem 2.5rem 5rem; /* Restore padding for larger screens */
+        padding: 4rem 4rem 2.5rem 5rem;
     }
 
     .unique-section .about-img img {
-        width: 200px; /* Restore image size for larger screens */
+        width: 200px;
     }
 
     .unique-section .about-img {
-        width: 200px; /* Restore image size for larger screens */
-        height: 200px; /* Restore image size for larger screens */
+        width: 200px;
+        height: 200px;
     }
 
     .unique-section .shadow {
-        width: 200px; /* Restore shadow size for larger screens */
-        height: 200px; /* Restore shadow size for larger screens */
+        width: 200px;
+        height: 200px;
     }
 
     .unique-section .about-left-content h2 {
-        font-size: 2rem; /* Restore font size for larger screens */
-        margin: 2.2rem 0 0.6rem 0; /* Restore margin for larger screens */
+        font-size: 2rem;
+        margin: 2.2rem 0 0.6rem 0;
     }
 
     .unique-section .about-left-content h3 {
-        letter-spacing: 5px; /* Restore letter spacing for larger screens */
-        margin-top: 1.2rem; /* Restore margin for larger screens */
+        letter-spacing: 5px;
+        margin-top: 1.2rem;
     }
 
     .unique-section .icons li {
-        width: 40px; /* Restore icon size for larger screens */
-        height: 40px; /* Restore icon size for larger screens */
-        font-size: 1.2rem; /* Restore font size for larger screens */
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
     }
 
     .unique-section .about-right {
-        height: 100vh; /* Restore height for larger screens */
-        padding: 0 5rem; /* Restore padding for larger screens */
+        height: 100vh;
+        padding: 0 5rem;
     }
 
     .unique-section .about-right h1 {
@@ -759,18 +759,18 @@
     }
 
     .unique-section .about-right h2 {
-        /*font-size: inherit;!* Restore font size for larger screens *!*/
+
         font-weight: 600;
 
     }
 
     .unique-section .about-btns {
-        flex-direction: row; /* Restore horizontal layout for buttons */
-        margin: 2rem 0; /* Restore margin for larger screens */
+        flex-direction: row;
+        margin: 2rem 0;
     }
 
     .unique-section .btn {
-        margin: 0 0.5rem; /* Restore margin for larger screens */
+        margin: 0 0.5rem;
     }
 
 }
@@ -1130,31 +1130,22 @@
 }
 @media screen and (max-width: 768px) {
     .unique-gallery #cancel-btn {
-        font-size: 2rem;  /* Reduce size for small screens */
+        font-size: 2rem;
         top: 5px;
         right: 5px;
     }
 }
 
-
-/*.unique-gallery .image-view {*/
-/*    position: fixed;*/
-/*    top: 20px;*/
-/*    bottom: 20px;*/
-/*    right: 4%;*/
-/*    left: 4%;*/
-/*    display: none;*/
-/*}*/
 .unique-gallery .image-view {
     position: fixed;
     top: 10px;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%;  /* Adjust width for smaller screens */
+    width: 90%;
     height: 90vh;
     display: none;
-    z-index: 999;  /* Ensure it's above other elements */
+    z-index: 999;
     background: rgba(0, 0, 0, 0.8);
 }
 
@@ -1957,11 +1948,11 @@
     color: var(--white);
 }
 .description {
-    font-size: 1.2rem;  /* Increase font size */
-    text-align: center; /* Center align text */
-    color: var(--white);    /* Darker text color for readability */
-    line-height: 1.6;   /* Increase line height for better spacing */
-    margin-bottom: 20px; /* Add spacing below the paragraph */
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--white);
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .resume__container .section__header::before {
@@ -2010,8 +2001,8 @@
     margin-bottom: 4rem;
     text-align: center;
     color: var(--white);
-    font-size: 0.9rem; /* Adjusted for a slightly larger font */
-    line-height: 1.6; /* Improves readability */
+    font-size: 0.9rem;
+    line-height: 1.6;
 
 }
 .resume__container .resume__tablist{
@@ -2046,6 +2037,38 @@
 
 .resume__container .panel__grid.close {
     animation: hide-panel 0.3s forwards;
+}
+.resume__container .description {
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--text-light);
+    font-size: 1rem; /* Default size */
+    line-height: 1.6;
+}
+
+@media (min-width: 1440px) {
+    .resume__container .description {
+        font-size: 1.2rem;
+        line-height: 1.7;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .resume__container .description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 425px) {
+    .resume__container .description {
+        font-size: 0.85rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+    }
 }
 @keyframes show-panel {
     0% {
@@ -2098,20 +2121,7 @@
 .resume__container .panel__card .section__description{
     margin-bottom: 0;
 }
-/*.resume__container .banner{*/
-/*    background-color: var(--primary-color);*/
-/*}*/
-/*This Is not Apply .Case an error*/
-/*@media (max-width: 425px) {*/
-/*    .resume__container .section__header::before {*/
-/*        font-size: 3rem;         !* Reduced from 4.5rem *!*/
-/*        line-height: 3.5rem;     !* Reduced from 6rem *!*/
-/*        bottom: -5px;            !* Better vertical positioning *!*/
-/*        white-space: normal;     !* Allow text wrapping *!*/
-/*        width: 100%;            !* Full width to help centering *!*/
-/*        transform: translateX(-50%) scale(0.8); !* Slightly scale down *!*/
-/*    }*/
-/*}*/
+
 @media (width > 540px) {
     .resume__container .panel__grid {
         grid-template-columns: repeat(2, 1fr);
