@@ -29,7 +29,7 @@
 </head>
 <body>
 <!--HomePage Section Start-->
-<div class="custom-section">
+<div id="home" class="custom-section">
     <nav>
         <div class="nav__header">
             <div class="nav__logo">
@@ -42,14 +42,14 @@
             </div>
         </div>
         <ul class="nav__links" id="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Assignments</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#" class="hire__me">Contact</a></li>
-            <li><a href="#">Service</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#assignment">Assignments</a></li>
+            <li><a href="#resume">Education</a></li>
+            <li><a href="#contact" class="hire__me">Contact</a></li>
+            <li><a href="#service">Service</a></li>
         </ul>
     </nav>
     <header class="header__container">
@@ -141,7 +141,7 @@
 <!--status bar Section End-->
 
 <!--About Me Section Start Part-->
-<div class="unique-section">
+<div id="about" class="unique-section">
     <div class="about-wrapper">
         <div class="about-left">
             <div class="about-left-content">
@@ -178,11 +178,11 @@
         </div>
 
         <div class="about-right">
-            <h1>hi <span>!</span></h1>
+            <h1>hi </h1>
             <h2>Here's Who I am & What I do</h2>
             <div class="about-btns">
-                <button type="button" class="btn btn-pink">Download CV</button>
-                <button type="button" class="btn btn-white">Resume</button>
+                <button type="button" class="btn btn-pink ">Download CV</button>
+                <button type="button" class="btn btn-white ">Resume</button>
             </div>
             <div class="about-para">
                 <p>
@@ -344,7 +344,8 @@
             </p>
             <div class="service__grid">
                 <div class="service__card">
-                    <span><i class="ri-mac-line"></i></span>
+<!--                    <span><i class="ri-mac-line"></i></span>-->
+                    <span style="position: relative; top: -10px;"><i class="ri-mac-line"></i></span>
                     <div>
                         <h4>UI/UX Designer</h4>
                         <p>
@@ -353,7 +354,8 @@
                     </div>
                 </div>
                 <div class="service__card">
-                    <span><i class="ri-quill-pen-fill"></i></span>
+<!--                    <span><i class="ri-quill-pen-fill"></i></span>-->
+                    <span style="position: relative; top: -10px;"><i class="ri-quill-pen-fill"></i></span>
                     <div>
                         <h4>Research on Real-World Problems</h4>
                         <p>
@@ -362,7 +364,8 @@
                     </div>
                 </div>
                 <div class="service__card">
-                    <span><i class="ri-heart-line"></i></span>
+<!--                    <span><i class="ri-heart-line"></i></span>-->
+                    <span style="position: relative; top: -10px;"><i class="ri-heart-line"></i></span>
                     <div>
                         <h4>As a University Student</h4>
                         <p>
@@ -371,7 +374,8 @@
                     </div>
                 </div>
                 <div class="service__card">
-                    <span><i class="ri-terminal-box-line"></i></span>
+<!--                    <span><i class="ri-terminal-box-line"></i></span>-->
+                    <span style="position: relative; top: -10px;"><i class="ri-terminal-box-line"></i></span>
                     <div>
                         <h4>Software Project Creation</h4>
                         <p>
@@ -390,18 +394,18 @@
 
 
 <!--My Projects Section Start-->
-<section class="section__container blog__container" id="blog">
-    <h2 class="section__header">It Help My Goals</h2>
+<section  class="section__container blog__container" id="blog">
+    <h2 id=projects class="section__header">It Help My Goals</h2>
     <div class="blog__grid">
         <div class="blog__card">
-            <img src="assets/images/library_4.jpg" alt=" Project image">
+            <img src="assets/images/doctor.jpg" alt=" Project image">
             <div class="blog__content">
-                <h4>Library Management System</h4>
+                <h4>Health Therapy Center Management System</h4>
                 <p class="section__description">
-                    Streamline library tasks,<br>
-                    manage books and members,<br>
-                    and enhance operations<br>
-                    with an efficient Library Management System.
+                    Streamline therapy center operations,<br>
+                    manage appointments and patient records,<br>
+                    and enhance client care<br>
+                    with an efficient Health Therapy Center Management System.
                 </p>
                 <div>
                     <a href="#">View On GitHub</a>
@@ -418,9 +422,10 @@
             <div class="blog__content">
                 <h4>Vehicle Rental System</h4>
                 <p class="section__description">
-                    Streamline vehicle operations,<br>
-                    manage vehicles and parts,<br>
-                    and enhance transactions with an efficient Vehicle Management System.
+                    Simplify vehicle rental operations,<br>
+                    manage vehicle availability, maintenance, and customer bookings,<br>
+                    and ensure smooth and efficient rentals<br>
+                    with a powerful Vehicle Rental System.
                 </p>
                 <div>
                     <a href="#">View On GitHub</a>
@@ -518,7 +523,7 @@
 
 
 <!--My Skill Section  Start-->
-<div class="unique-Skill-section">
+<div id="skills" class="unique-Skill-section">
     <div class="skill_section skill__container">
         <h2 class="skill_section__header">My Skills</h2>
         <div class="container">
@@ -549,6 +554,14 @@
             <div class="card">
                 <div id="card-7"></div>
                 <p>Draw.io</p>
+            </div>
+            <div class="card">
+                <div id="card-8"></div>
+                <p>Microsoft Office</p>
+            </div>
+            <div class="card">
+                <div id="card-9"></div>
+                <p>Canva</p>
             </div>
         </div>
     </div>
@@ -603,7 +616,10 @@
         </div>
     </div>
 
-
+    <!-- Success Message -->
+    <div id="successMessage" class="success-message">
+        <p>Message sent successfully! 🎉</p>
+    </div>
 
     <script>
         document.querySelector("form").addEventListener("submit", async function (e) {
@@ -619,17 +635,18 @@
 
             let result = await response.json();
             if (result.success) {
-                alert("Message sent successfully!");
+                // Show success message
+                let successMessage = document.getElementById("successMessage");
+                successMessage.style.display = "block";
+                setTimeout(() => {
+                    successMessage.style.display = "none";
+                }, 3000); // Hide after 3 seconds
                 form.reset(); // Clear form fields
             } else {
                 alert("Error sending message. Please try again.");
             }
         });
     </script>
-
-    <!--    <div class="footer__bar">-->
-    <!--        Copyright © 2024 Web Design Mastery. All rights reserved.-->
-    <!--    </div>-->
 </footer>
 <!--Contact Us Section End-->
 
@@ -703,10 +720,9 @@
 </footer>
 <!-- Footer Section End-->
 
-
-
-
-
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="Js/smooth-scroll.js"></script>
+<script src="Js/main.js"></script>
 
 
 </body>
