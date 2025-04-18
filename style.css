@@ -2529,6 +2529,22 @@
 .assignments-section .card:hover::before {
     left: 100%;
 }
+.assignments-section .card i {
+    margin: 1rem 0 1.5rem;
+    color: var(--primary-color);
+    font-size: 3rem;
+    transition: all 0.4s ease;
+}
+.assignments-section .card h2 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--white);
+    font-size: 1.9rem;
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+}
+
 
 
 
