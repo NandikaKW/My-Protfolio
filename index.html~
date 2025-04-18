@@ -46,7 +46,7 @@
             <li><a href="#about">About Me</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#assignment">Assignments</a></li>
+            <li><a href="#submit">Assignments</a></li>
             <li><a href="#resume">Education</a></li>
             <li><a href="#contact" class="hire__me">Contact</a></li>
             <li><a href="#service">Service</a></li>
@@ -204,16 +204,16 @@
 <div class="unique-gallery">
     <div class="gallery">
         <div class="gallery-wrapper">
-            <div class="block1"></div>
-            <div class="block2"></div>
-            <div class="block3"></div>
-            <div class="block4"></div>
-            <div class="block5"></div>
-            <div class="block6"></div>
-            <div class="block7"></div>
-            <div class="block8"></div>
-            <div class="block9"></div>
-            <div class="block10"></div>
+            <div class="block1" data-image="About_image.jpg"></div>
+            <div class="block2" data-image="my.jpg"></div>
+            <div class="block3" data-image="image_11.jpg"></div>
+            <div class="block4" data-image="image_4.jpg"></div>
+            <div class="block5" data-image="image_9.jpg"></div>
+            <div class="block6" data-image="image_6.jpg"></div>
+            <div class="block7" data-image="non.jpg"></div>
+            <div class="block8" data-image="image_8.jpg"></div>
+            <div class="block9" data-image="image_13.jpg"></div>
+            <div class="block10" data-image="image_10.jpg"></div>
         </div>
     </div>
     <div class="image-view">
@@ -222,6 +222,7 @@
         </span>
     </div>
 </div>
+
 <!--Gallery Section end-->
 
 <!--My Qualification Section Start-->
@@ -349,7 +350,7 @@
                     <div>
                         <h4>UI/UX Designer</h4>
                         <p>
-                            I specialize in creating intuitive and visually engaging user interfaces,<br> ensuring seamless user experiences that align with modern design trends .<br> My goal is to design solutions that are both functional .
+                            I specialize in creating intuitive and visually engaging user interfaces,<br> ensuring seamless user experiences that align with modern design trends.My goal is to design solutions that are both functional .
                         </p>
                     </div>
                 </div>
@@ -461,60 +462,93 @@
 </section>
 <!--My Projects Section End-->
 
-<!--Assignment Section Start-->
-<section class="Assignment" id="assignment">
-    <div class="section__container assigment__container">
-<!--        <h2 class="section__header">Assignments</h2>-->
-        <div class="wrapper">
-            <div class="box">
-                <h3>Programming Fundamentals Assignments</h3>
-                <ul>Assignment 01</ul>
-                <ul>Assignment 02</ul>
-                <ul>Assignment 03</ul>
-                <ul>Assignment 04</ul>
-                <ul>Assignment 05</ul>
-                <a href="https://github.com/NandikaKW"><button>View In Github</button></a>
+
+<!--New Assigment Section Start-->
+<section id="submit" class="assignments-section">
+    <div class="wrapper">
+        <h1 class="section__header">My Assignments</h1>
+            <p class="section__description">
+                Dive into my latest software projects,<br>
+                creative solutions, and hands-on coding challenges
+                that showcase my problem-solving skills
+                and passion for development.<br><br>
+            </p>
+
+            <div class="content-box">
+                <!-- Programming Fundamentals Assignment Section -->
+                <div class="card">
+                    <i class="fas fa-code"></i>
+                    <h2>Programming Fundamentals</h2>
+                    <p>An introductory assignment focusing on the basics of programming, including variables, loops, and conditionals.</p>
+                    <a href="https://github.com/NandikaKW" class="github-btn">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+
+
+
+                <!-- Network Programming Assignment Section -->
+                <div class="card">
+                    <i class="fas fa-network-wired"></i>
+                    <h2>Network Programming</h2>
+                    <p>An assignment focused on socket programming, client-server architecture, and data transmission over networks.</p>
+                    <a href="https://github.com/NandikaKW" class="github-btn">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+
+
+                <!-- Internet Technology Assignment Section -->
+                <div class="card">
+                    <i class="fas fa-globe"></i>
+                    <h2>Internet Technology</h2>
+                    <p>A web-based assignment exploring HTML, CSS, JavaScript, and basic networking concepts.</p>
+                    <a href="https://github.com/NandikaKW" class="github-btn">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+
+                <!-- ORM Assignment Section -->
+                <div class="card">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h2>Object-Relational Mapping (ORM)</h2>
+                    <p>An assignment demonstrating how to map objects to relational database tables using frameworks like Hibernate or Sequelize.</p>
+                    <a href="https://github.com/NandikaKW" class="github-btn">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+
+
+                <!-- Object Oriented Programming Assignment Section -->
+                <div class="card">
+                    <i class="fas fa-cubes"></i>
+                    <h2>Object Oriented Programming</h2>
+                    <p>An assignment emphasizing core OOP concepts like classes, objects, inheritance, and polymorphism using Java.</p>
+                    <a href="https://github.com/NandikaKW" class="github-btn">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+
+                <!-- Layered Architecture Assignment Section -->
+                <div class="card">
+                    <i class="fas fa-layer-group"></i>
+                    <h2>Layered Architecture</h2>
+                    <p>An assignment illustrating the separation of concerns using layers such as presentation, business logic, and data access.</p>
+                    <a href="https://github.com/NandikaKW" class="github-btn">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+
+
+
+
+
             </div>
-            <div class="box">
-                <h3>DataBase Management  Assignments</h3>
-                <ul>Assignment 01</ul>
-                <ul>Assignment 02</ul>
-                <ul>Assignment 03</ul>
-                <ul>Assignment 04</ul>
-                <ul>Assignment 05</ul>
-                <a href="https://github.com/NandikaKW"><button>View In Github</button></a>
-            </div>
-            <div class="box">
-                <h3>Internet Technology Assignments</h3>
-                <ul>Assignment 01</ul>
-                <ul>Assignment 02</ul>
-                <ul>Assignment 03</ul>
-                <ul>Assignment 04</ul>
-                <ul>Assignment 05</ul>
-                <a href="https://github.com/NandikaKW"><button>View In Github</button></a>
-            </div>
-            <div class="box">
-                <h3>Software Enginering Assignments</h3>
-                <ul>Assignment 01</ul>
-                <ul>Assignment 02</ul>
-                <ul>Assignment 03</ul>
-                <ul>Assignment 04</ul>
-                <ul>Assignment 05</ul>
-                <a href="https://github.com/NandikaKW"><button>View In Github</button></a>
-            </div>
-            <div class="box">
-                <h3>Oject Oriented Programming Assignments</h3>
-                <ul>Assignment 01</ul>
-                <ul>Assignment 02</ul>
-                <ul>Assignment 03</ul>
-                <ul>Assignment 04</ul>
-                <ul>Assignment 05</ul>
-                <a href="https://github.com/NandikaKW"><button>View In Github</button></a>
-            </div>
-        </div>
+
     </div>
+
 </section>
-<!--Assignments Section End-->
+<!--New Assigment Section End-->
 
 
 
@@ -726,6 +760,9 @@
 <script src="Js/home.js"></script>
 <script src="Js/gallery.js"></script>
 <script src="Js/counter.js"></script>
+<script src="Js/js-fluid-meter.js"></script>
+<script src="Js/script.js"></script>
+<script src="Js/service.js"></script>
 
 
 
