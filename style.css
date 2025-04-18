@@ -2495,6 +2495,13 @@
     font-weight: 300;
     line-height: 1.7;
 }
+.assignments-section .content-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
 
 
 
