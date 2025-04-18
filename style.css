@@ -2544,6 +2544,77 @@
     position: relative;
     font-family: "Times New Roman", Times, serif;
 }
+.assignments-section .card h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 2px;
+    background: var(--primary-color);
+    transition: width 0.3s ease;
+}
+.assignments-section .card:hover h2::after {
+    width: 80px;
+}
+.assignments-section .card p {
+    color: var(--text-light);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+    font-family: "Times New Roman", Times, serif;
+}
+.assignments-section .github-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.75rem;
+    background: transparent;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.4s ease;
+    border: 2px solid var(--primary-color);
+    margin-top: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.assignments-section .github-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--primary-color);
+    transition: width 0.4s ease;
+    z-index: -1;
+}
+
+.assignments-section .github-btn:hover::before {
+    width: 100%;
+}
+
+.assignments-section .github-btn i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    transition: all 0.4s ease;
+}
+
+.assignments-section .github-btn:hover,
+.assignments-section .github-btn:hover i {
+    color: white;
+}
+
+
+
 
 
 
