@@ -2635,16 +2635,53 @@
 .assignments-section .card:hover {
     animation: pulse 2s infinite ease-in-out;
 }
+/* Responsive Design */
+@media (max-width: 991px) {
+    .assignments-section .section__header {
+        font-size: 2rem;
+    }
 
+    .assignments-section .section__header::before {
+        font-size: 4rem;
+        top: -2.5rem;
+    }
+}
 
+@media (max-width: 768px) {
+    .assignments-section .section__header {
+        font-size: 1.8rem;
+    }
 
+    .assignments-section .section__header::before {
+        font-size: 3.5rem;
+        top: -2rem;
+    }
 
+    .assignments-section .card {
+        min-height: 320px;
+        padding: 2rem;
+    }
+}
 
+@media (max-width: 480px) {
+    .assignments-section .content-box {
+        grid-template-columns: 1fr;
+    }
 
+    .assignments-section .section__header {
+        font-size: 1.5rem;
+    }
 
+    .assignments-section .section__header::before {
+        font-size: 2.8rem;
+        top: -1.5rem;
+        white-space: normal;
+    }
 
-
-
+    .assignments-section .wrapper {
+        padding-top: 5rem;
+    }
+}
 /*New Assigment Section End*/
 
 
