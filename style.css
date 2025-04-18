@@ -2612,6 +2612,21 @@
 .assignments-section .github-btn:hover i {
     color: white;
 }
+.assignments-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(254, 33, 79, 0.15);
+    border-color: rgba(254, 33, 79, 0.3);
+}
+
+.assignments-section .card:hover i {
+    transform: scale(1.2) rotate(10deg);
+    filter: drop-shadow(0 5px 15px rgba(254, 33, 79, 0.4));
+}
+
+.assignments-section .card:hover p {
+    color: rgba(255,255,255,0.9);
+}
+
 
 
 
