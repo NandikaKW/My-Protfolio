@@ -2626,6 +2626,16 @@
 .assignments-section .card:hover p {
     color: rgba(255,255,255,0.9);
 }
+@keyframes pulse {
+    0% { transform: translateY(-10px) scale(1); }
+    50% { transform: translateY(-10px) scale(1.03); }
+    100% { transform: translateY(-10px) scale(1); }
+}
+
+.assignments-section .card:hover {
+    animation: pulse 2s infinite ease-in-out;
+}
+
 
 
 
