@@ -2481,6 +2481,13 @@
     animation: underlineGrow 0.8s ease-out;
 
 }
+@keyframes underlineGrow {
+    0% { width: 0; opacity: 0; }
+    100% { width: 80px; opacity: 1; }
+}
+
+
+
 /*New Assigment Section End*/
 
 
