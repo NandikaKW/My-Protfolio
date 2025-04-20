@@ -2715,6 +2715,13 @@
     border: 2px solid white;
 
 }
+.floating-home-btn__link:hover {
+    transform: translateY(-8px) scale(1.05);
+    background: rgba(254, 33, 79, 1);
+    box-shadow:
+            0 12px 25px rgba(0, 0, 0, 0.4),
+            inset 0 1px 1px rgba(255, 255, 255, 0.3);
+}
 /* Floating Home Button End*/
 
 
