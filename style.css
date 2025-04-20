@@ -2684,7 +2684,7 @@
 }
 /*New Assigment Section End*/
 /* Floating Home Button Start*/
-.floating-home-btn{
+.floating-home-btn {
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -2692,16 +2692,18 @@
     filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
+
 .floating-home-btn--hidden {
     opacity: 0;
     transform: translateY(120px) scale(0.8);
 }
-.floating-home-btn__link{
+
+.floating-home-btn__link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background: rgba(254, 33, 79, 0.95);
     color: white;
@@ -2713,8 +2715,8 @@
             0 6px 20px rgba(0, 0, 0, 0.3),
             inset 0 1px 1px rgba(255, 255, 255, 0.2);
     border: 2px solid white;
-
 }
+
 .floating-home-btn__link:hover {
     transform: translateY(-8px) scale(1.05);
     background: rgba(254, 33, 79, 1);
@@ -2722,11 +2724,13 @@
             0 12px 25px rgba(0, 0, 0, 0.4),
             inset 0 1px 1px rgba(255, 255, 255, 0.3);
 }
+
 .floating-home-btn__icon-container {
     position: relative;
     z-index: 2;
     transition: all 0.3s ease;
 }
+
 .floating-home-btn__icon {
     width: 28px;
     height: 28px;
@@ -2734,6 +2738,7 @@
     transition: all 0.3s ease;
     filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
 }
+
 .floating-home-btn__text {
     position: absolute;
     right: 80px;
@@ -2751,11 +2756,13 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     pointer-events: none;
 }
+
 .floating-home-btn__link:hover .floating-home-btn__text {
     opacity: 1;
     transform: translateX(0);
     right: 90px;
 }
+
 /* Particle Animation */
 .floating-home-btn__particles {
     position: absolute;
@@ -2765,6 +2772,7 @@
     pointer-events: none;
     overflow: hidden;
 }
+
 .floating-home-btn__particles::before,
 .floating-home-btn__particles::after {
     content: '';
@@ -2775,6 +2783,7 @@
     border-radius: 50%;
     opacity: 0;
 }
+
 .floating-home-btn__particles::before {
     top: 20%;
     left: 20%;
@@ -2786,6 +2795,7 @@
     left: 60%;
     animation: particle-2 3s infinite linear;
 }
+
 @keyframes particle-1 {
     0% {
         transform: translate(0, 0);
@@ -2799,6 +2809,7 @@
         opacity: 0;
     }
 }
+
 @keyframes particle-2 {
     0% {
         transform: translate(0, 0);
@@ -2812,6 +2823,7 @@
         opacity: 0;
     }
 }
+
 /* Click Animation */
 @keyframes floatingHomeBtnPulse {
     0% {
@@ -2831,6 +2843,7 @@
 .floating-home-btn--clicked {
     animation: floatingHomeBtnPulse 0.4s ease;
 }
+
 /* Ripple Effect */
 .floating-home-btn__link:active::before {
     content: '';
@@ -2853,6 +2866,7 @@
         opacity: 0;
     }
 }
+
 /* Glow Effect */
 .floating-home-btn__link:hover::after {
     content: '';
@@ -2877,6 +2891,7 @@
         transform: scale(1.05);
     }
 }
+
 /* Scroll Indicator */
 .floating-home-btn::before {
     content: '';
@@ -2903,6 +2918,7 @@
     transition: height 0.3s ease;
 }
 
+/* Responsive Adjustments */
 @media (max-width: 768px) {
     .floating-home-btn {
         bottom: 25px;
