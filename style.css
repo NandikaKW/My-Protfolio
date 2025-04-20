@@ -2775,8 +2775,17 @@
     border-radius: 50%;
     opacity: 0;
 }
+.floating-home-btn__particles::before {
+    top: 20%;
+    left: 20%;
+    animation: particle-1 3s infinite linear;
+}
 
-
+.floating-home-btn__particles::after {
+    top: 60%;
+    left: 60%;
+    animation: particle-2 3s infinite linear;
+}
 /* Floating Home Button End*/
 
 
