@@ -2727,8 +2727,13 @@
     z-index: 2;
     transition: all 0.3s ease;
 }
-
-
+.floating-home-btn__icon {
+    width: 28px;
+    height: 28px;
+    fill: white;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+}
 /* Floating Home Button End*/
 
 
