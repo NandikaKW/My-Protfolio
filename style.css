@@ -2751,6 +2751,11 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     pointer-events: none;
 }
+.floating-home-btn__link:hover .floating-home-btn__text {
+    opacity: 1;
+    transform: translateX(0);
+    right: 90px;
+}
 
 /* Floating Home Button End*/
 
