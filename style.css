@@ -2684,7 +2684,15 @@
 }
 /*New Assigment Section End*/
 /* Floating Home Button Start*/
+.floating-home-btn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 
+}
 /* Floating Home Button End*/
 
 
