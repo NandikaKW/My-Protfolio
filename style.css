@@ -2765,6 +2765,16 @@
     pointer-events: none;
     overflow: hidden;
 }
+.floating-home-btn__particles::before,
+.floating-home-btn__particles::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    opacity: 0;
+}
 
 
 /* Floating Home Button End*/
