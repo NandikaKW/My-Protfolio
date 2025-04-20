@@ -2799,6 +2799,20 @@
         opacity: 0;
     }
 }
+@keyframes particle-2 {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(25px, -20px);
+        opacity: 0;
+    }
+}
+
 /* Floating Home Button End*/
 
 
