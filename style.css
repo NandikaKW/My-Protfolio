@@ -2877,6 +2877,31 @@
         transform: scale(1.05);
     }
 }
+/* Scroll Indicator */
+.floating-home-btn::before {
+    content: '';
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 60px;
+    background: rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+.floating-home-btn::after {
+    content: '';
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 0;
+    background: white;
+    border-radius: 2px;
+    transition: height 0.3s ease;
+}
 
 
 /* Floating Home Button End*/
