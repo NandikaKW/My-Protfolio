@@ -1831,15 +1831,13 @@
     color: var(--white);
     transition: 0.3s;
 }
-
+.blog__container .blog__content a {
+    font-size: 0.9rem;
+}
 .blog__container .blog__content a:hover {
     color: var(--primary-color);
 }
-/*.blog__container .blog__socials {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    gap: 1rem;*/
-/*}*/
+
  /*GitHub Button Animation*/
 .blog__socials {
     margin-top: 10px;
