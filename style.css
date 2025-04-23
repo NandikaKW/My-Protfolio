@@ -1910,7 +1910,9 @@
     .blog__container .blog__content h4 {
         font-size: 1.4rem;
     }
-
+    .blog__container .section__description {
+        font-size: 1rem;
+    }
 }
 /*My Projects Section End*/
 
