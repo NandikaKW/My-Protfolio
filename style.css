@@ -1903,7 +1903,12 @@
         padding: 2rem;
     }
 }
+@media (min-width: 425px) {
+    .blog__container .section__header {
+        font-size: 1.7rem;
+    }
 
+}
 /*My Projects Section End*/
 
 /*Resume Section Start*/
