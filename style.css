@@ -1929,6 +1929,11 @@
     .blog__container .section__description {
         font-size: 1.1rem;
     }
+
+    .blog__container .blog__content a {
+        font-size: 1.1rem;
+    }
+
 }
 /*My Projects Section End*/
 
