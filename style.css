@@ -1919,6 +1919,12 @@
     }
 
 }
+@media (min-width: 768px) {
+    .blog__container .section__header {
+        font-size: 2rem;
+    }
+
+}
 /*My Projects Section End*/
 
 /*Resume Section Start*/
