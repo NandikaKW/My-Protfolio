@@ -1948,6 +1948,9 @@
         font-size: 1.2rem;
         margin-bottom: 1rem;
     }
+    .blog__container .blog__content a {
+        font-size: 1.2rem;
+    }
 }
 /*My Projects Section End*/
 
