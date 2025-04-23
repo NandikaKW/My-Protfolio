@@ -1944,6 +1944,10 @@
         font-size: 1.8rem;
         margin-bottom: 1.5rem;
     }
+    .blog__container .section__description {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
 }
 /*My Projects Section End*/
 
