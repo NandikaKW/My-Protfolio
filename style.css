@@ -1726,6 +1726,10 @@
 .blog__container .section__description{
     font-family: "Times New Roman", Times, serif;
 }
+.blog__container .section__description {
+    font-size: 0.9rem;
+}
+
 .blog__container .section__header {
     font-size: 1.5rem;
 }
