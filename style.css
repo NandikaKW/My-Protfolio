@@ -1913,6 +1913,11 @@
     .blog__container .section__description {
         font-size: 1rem;
     }
+
+    .blog__container .blog__content a {
+        font-size: 1rem;
+    }
+
 }
 /*My Projects Section End*/
 
