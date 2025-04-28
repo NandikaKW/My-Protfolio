@@ -2793,7 +2793,17 @@
     position: relative;
     padding-bottom: 10px;
 }
-
+.times-new-roman::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background: var(--primary-color);
+    border-radius: 2px;
+}
 
 
 
