@@ -3041,6 +3041,11 @@
     background: rgba(225, 29, 70);
     transition: width 0.4s ease;
 }
+.nav-link:hover {
+    color: #000;
+    transform: translateX(-8px);
+}
+
 
 
 
