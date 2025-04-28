@@ -2766,6 +2766,11 @@
     background: rgba(254, 33, 79, 0.2);
     transform: translateX(5px);
 }
+.project-links i {
+    color: var(--primary-color);
+    width: 20px;
+    text-align: center;
+}
 
 
 
