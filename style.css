@@ -2724,6 +2724,17 @@
 .simple-popup.active .popup-content {
     transform: scale(1);
 }
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
 
 
 
