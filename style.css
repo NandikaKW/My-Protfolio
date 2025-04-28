@@ -2819,7 +2819,19 @@
     transform: translateX(5px) scale(1.02) !important;
     background: rgba(254, 33, 79, 0.1) !important;
 }
-
+.close-btn {
+    background: #1a1a1a !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+            3px 3px 6px rgba(0, 0, 0, 0.4),
+            -3px -3px 6px rgba(50, 50, 50, 0.2);
+    transition: all 0.3s ease;
+}
 
 /* Responsive Design */
 @media (max-width: 991px) {
