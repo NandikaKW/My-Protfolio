@@ -2739,6 +2739,19 @@
     color: var(--primary-color);
     transform: rotate(90deg);
 }
+.popup-content h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.project-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+}
+
 
 
 
