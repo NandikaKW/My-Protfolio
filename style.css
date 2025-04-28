@@ -3045,6 +3045,17 @@
     color: #000;
     transform: translateX(-8px);
 }
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Active State - Bold & Colored */
+.nav-link.active {
+    color: rgba(225, 29, 70);
+    font-weight: 600;
+    transform: translateX(-8px);
+}
+
 
 
 
