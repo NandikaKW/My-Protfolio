@@ -1,6 +1,8 @@
-document.addEventListener('DOMContentLoaded',()=>{
+document.addEventListener('DOMContentLoaded', () => {
+    // Only initialize if we're on desktop (1440px+)
     if (window.matchMedia('(min-width: 1440px)').matches) {
         const navLinks = document.querySelectorAll('.right-side-nav .nav-link');
+
         // Update active link on scroll
         window.addEventListener('scroll', () => {
             const scrollPos = window.scrollY + 100;
@@ -17,7 +19,20 @@ document.addEventListener('DOMContentLoaded',()=>{
             });
         });
 
+        // Smooth scroll to section
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
 
+                if (targetSection) {
+                    window.scrollTo({
+                        top: targetSection.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
     }
-
 });
