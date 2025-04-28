@@ -2832,7 +2832,12 @@
             -3px -3px 6px rgba(50, 50, 50, 0.2);
     transition: all 0.3s ease;
 }
-
+.close-btn:hover {
+    box-shadow:
+            inset 2px 2px 5px rgba(0, 0, 0, 0.4),
+            inset -2px -2px 5px rgba(60, 60, 60, 0.2);
+    color: var(--primary-color) !important;
+}
 /* Responsive Design */
 @media (max-width: 991px) {
     .assignments-section .section__header {
