@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded',()=>{
+document.addEventListener('DOMContentLoaded', () => {
     const viewMoreBtn = document.querySelector('.view-more-btn');
     const popup = document.querySelector('.simple-popup');
     const closeBtn = document.querySelector('.close-btn');
@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded',()=>{
         document.body.style.overflow = 'auto';
     });
 
-    popup.addEventListener('click',(e)=>{
-        if (e.target===popup) {
+    // Close when clicking outside
+    popup.addEventListener('click', (e) => {
+        if (e.target === popup) {
             popup.classList.remove('active');
             document.body.style.overflow = 'auto';
         }
-    })
-
-})
+    });
+});
