@@ -2997,6 +2997,16 @@
 }
 /* Floating Home Button end*/
 
+/*Right Side Navigation Bar start*/
+.right-side-nav {
+    position: fixed;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    font-family: 'Poppins', sans-serif;
+    display: none;
+}
 
 
 
