@@ -2708,6 +2708,19 @@
     opacity: 1;
     pointer-events: all;
 }
+.popup-content {
+    background: #1e1e1e;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(254, 33, 79, 0.3);
+}
 
 
 
