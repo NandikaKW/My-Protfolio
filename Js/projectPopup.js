@@ -15,4 +15,11 @@ document.addEventListener('DOMContentLoaded',()=>{
         document.body.style.overflow = 'auto';
     });
 
+    popup.addEventListener('click',(e)=>{
+        if (e.target===popup) {
+            popup.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+    })
+
 })
