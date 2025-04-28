@@ -2771,7 +2771,11 @@
     width: 20px;
     text-align: center;
 }
-
+/* View More Button */
+.view-more-btn {
+    margin-top: auto;
+    cursor: pointer;
+}
 
 
 
