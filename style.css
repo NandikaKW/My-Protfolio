@@ -2812,7 +2812,13 @@
     border: none !important;
     transition: all 0.3s ease !important;
 }
-
+.project-links a:hover {
+    box-shadow:
+            inset 2px 2px 5px rgba(0, 0, 0, 0.4),
+            inset -2px -2px 5px rgba(60, 60, 60, 0.2) !important;
+    transform: translateX(5px) scale(1.02) !important;
+    background: rgba(254, 33, 79, 0.1) !important;
+}
 
 
 /* Responsive Design */
