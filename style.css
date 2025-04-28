@@ -2721,6 +2721,10 @@
     transition: transform 0.3s ease;
     border: 1px solid rgba(254, 33, 79, 0.3);
 }
+.simple-popup.active .popup-content {
+    transform: scale(1);
+}
+
 
 
 
