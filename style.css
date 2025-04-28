@@ -2762,6 +2762,11 @@
     text-decoration: none;
     transition: all 0.2s ease;
 }
+.project-links a:hover {
+    background: rgba(254, 33, 79, 0.2);
+    transform: translateX(5px);
+}
+
 
 
 
