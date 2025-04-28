@@ -2704,6 +2704,12 @@
     pointer-events: none;
     transition: all 0.3s ease;
 }
+.simple-popup.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 991px) {
