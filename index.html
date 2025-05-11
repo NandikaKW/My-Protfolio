@@ -182,7 +182,7 @@
             <h2>Here's Who I am & What I do</h2>
             <div class="about-btns">
                 <button type="button" class="btn btn-pink ">Download CV</button>
-                <button type="button" class="btn btn-white ">Resume</button>
+                <a href="#resume" class="btn btn-white">Resume</a>
             </div>
             <div class="about-para">
                 <p>
@@ -210,7 +210,7 @@
             <div class="block4" data-image="image_4.jpg"></div>
             <div class="block5" data-image="image_9.jpg"></div>
             <div class="block6" data-image="image_6.jpg"></div>
-            <div class="block7" data-image="non.jpg"></div>
+            <div class="block7" data-image="image_5.jpg"></div>
             <div class="block8" data-image="image_8.jpg"></div>
             <div class="block9" data-image="image_13.jpg"></div>
             <div class="block10" data-image="image_10.jpg"></div>
@@ -513,18 +513,19 @@
                     <button class="close-btn">&times;</button>
                     <h3 class="times-new-roman">My Web Projects</h3>
                     <div class="project-links">
-                        <a href="#"><i class="fab fa-html5"></i> HTML Basics</a>
-                        <a href="#"><i class="fab fa-css3-alt"></i> CSS Framework</a>
-                        <a href="#"><i class="fab fa-js"></i> JavaScript Game</a>
-                        <a href="#"><i class="fas fa-mobile-alt"></i> Responsive Design</a>
-                        <a href="#"><i class="fas fa-cloud"></i> API Project</a>
-                        <a href="#"><i class="fas fa-film"></i> Animations</a>
-                        <a href="#"><i class="fas fa-check-circle"></i> Form Validation</a>
-                        <a href="#"><i class="fas fa-lock"></i> Auth System</a>
-                        <a href="#"><i class="fas fa-shopping-cart"></i> E-commerce</a>
-                        <a href="#"><i class="fas fa-briefcase"></i> Portfolio</a>
-                        <a href="#"><i class="fas fa-blog"></i> Blog System</a>
-                        <a href="#"><i class="fas fa-chart-line"></i> Dashboard</a>
+                        <a href="https://github.com/NandikaKW/My-Protfolio.git"><i class="fas fa-tasks"></i> Assigment 01</a>
+                        <a href="https://github.com/NandikaKW/My-Protfolio.git"><i class="fas fa-tasks"></i>Assigment 02</a>
+                        <a href="https://github.com/NandikaKW/Home-Assigment-03.git"><i class="fas fa-tasks"></i> Assigment 03</a>
+                        <a href="https://github.com/NandikaKW/Home-Assignment-4.git"><i class="fas fa-tasks"></i> Assigment 04</a>
+                        <a href="https://github.com/NandikaKW/My-Protfolio.git"><i class="fas fa-tasks"></i> Assigment 05</a>
+                        <a href="https://github.com/NandikaKW/My-Pos-System.git"><i class="fas fa-tasks"></i>  Assigment 06</a>
+                        <a href="https://github.com/NandikaKW/My-SPA-Pos-System.git"><i class="fas fa-tasks"></i> Assigment 07 </a>
+                        <a href="https://github.com/NandikaKW/Assignment-08.git"><i class="fas fa-tasks"></i> Assigment 08</a>
+                        <a href="https://github.com/NandikaKW/Assigment-09.git"><i class="fas fa-tasks"></i> Assigment 09</a>
+                        <a href=""><i class="fas fa-tasks"></i> Assigment 10</a>
+                        <a href=""><i class="fas fa-tasks"></i> Assigment 11</a>
+                        <a href=""><i class="fas fa-tasks"></i> Assigment 12</a>
+
                     </div>
                 </div>
             </div>
@@ -665,11 +666,7 @@
         </div>
     </div>
 
-    <!-- Success Message -->
-    <div id="successMessage" class="success-message">
-        <p>Message sent successfully! 🎉</p>
-    </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         document.querySelector("form").addEventListener("submit", async function (e) {
             e.preventDefault(); // Prevent default form submission
@@ -684,18 +681,33 @@
 
             let result = await response.json();
             if (result.success) {
-                // Show success message
-                let successMessage = document.getElementById("successMessage");
-                successMessage.style.display = "block";
-                setTimeout(() => {
-                    successMessage.style.display = "none";
-                }, 3000); // Hide after 3 seconds
+                // SweetAlert2 success message with black, white, and red tones
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Message Sent!',
+                    text: 'Thank you for reaching out. I will get back to you soon.',
+                    background: 'white',
+                    color: 'black', // Text color white
+                    confirmButtonColor: '#ff014f', // Button color red
+                    showConfirmButton: true,
+                    timer: 3000
+                });
                 form.reset(); // Clear form fields
             } else {
-                alert("Error sending message. Please try again.");
+                // SweetAlert2 error message with black, white, and red tones
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Something went wrong. Please try again later!',
+                    background: 'white',
+                    color: 'black', // Text color white
+                    confirmButtonColor: '#ff014f', // Button color red
+                });
             }
         });
     </script>
+
+
 </footer>
 <!--Contact Us Section End-->
 
@@ -790,7 +802,7 @@
 
 
 
-
+<!--JS Scripts-->
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="Js/smooth-scroll.js"></script>
 <script src="Js/main.js"></script>
