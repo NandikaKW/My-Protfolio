@@ -1613,6 +1613,14 @@
     transition: var(--transition);
     font-size: 1.2rem;
 }
+.footer-Section .social-links a:hover {
+    color: #ff014f !important;
+    box-shadow:
+            inset 2px 2px 4px rgba(0, 0, 0, 0.8),
+            inset -2px -2px 4px rgba(35, 35, 35, 0.5);
+    transform: scale(0.95);
+    text-shadow: 0 0 10px #ff014f;
+}
 /*Footer Section End*!*/
 /*My Projects Section Start*/
 .blog__container{
