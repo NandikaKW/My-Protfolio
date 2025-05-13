@@ -1641,7 +1641,17 @@
 .footer-Section .footer-links a i {
     font-size: 0.9rem;
 }
-
+/* Contact Info */
+.footer-Section .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.footer-Section .contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
 /*Footer Section End*!*/
 /*My Projects Section Start*/
 .blog__container{
