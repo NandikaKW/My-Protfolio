@@ -1576,6 +1576,22 @@
     position: relative;
     padding-bottom: 0.5rem;
 }
+.footer-Section .footer-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: #ff014f;
+}
+
+.footer-Section .text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #b0b0b0;
+    margin-bottom: 1.5rem;
+}
 /*Footer Section End*!*/
 /*My Projects Section Start*/
 .blog__container{
