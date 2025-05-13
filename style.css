@@ -1621,6 +1621,12 @@
     transform: scale(0.95);
     text-shadow: 0 0 10px #ff014f;
 }
+/* Footer Links */
+.footer-Section .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
 /*Footer Section End*!*/
 /*My Projects Section Start*/
 .blog__container{
