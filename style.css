@@ -1598,6 +1598,21 @@
     gap: 1rem;
     margin-top: 1.5rem;
 }
+.footer-Section .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #0d0d0d;
+    color: #b0b0b0;
+    box-shadow:
+            3px 3px 6px rgba(0, 0, 0, 0.8),
+            -3px -3px 6px rgba(35, 35, 35, 0.5);
+    transition: var(--transition);
+    font-size: 1.2rem;
+}
 /*Footer Section End*!*/
 /*My Projects Section Start*/
 .blog__container{
