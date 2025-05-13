@@ -1685,6 +1685,21 @@
         justify-content: center;
     }
 }
+@media (min-width: 992px) {
+    .footer-Section .row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-Section .col:first-child {
+        grid-column: auto;
+        text-align: left;
+        max-width: 100%;
+    }
+
+    .footer-Section .social-links {
+        justify-content: flex-start;
+    }
+}
 /*Footer Section End*!*/
 /*My Projects Section Start*/
 .blog__container{
