@@ -1634,6 +1634,10 @@
     color: #b0b0b0;
     transition: var(--transition);
 }
+.footer-Section .footer-links a:hover {
+    color: #ff014f !important;
+    transform: translateX(5px);
+}
 /*Footer Section End*!*/
 /*My Projects Section Start*/
 .blog__container{
