@@ -1700,6 +1700,11 @@
         justify-content: flex-start;
     }
 }
+.footer-Section a:hover i,
+.footer-Section .footer-links a:hover i,
+.footer-Section .contact-item:hover i {
+    color: #ff014f !important;
+}
 /*Footer Section End*!*/
 /*My Projects Section Start*/
 .blog__container{
