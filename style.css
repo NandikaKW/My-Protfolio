@@ -1638,6 +1638,9 @@
     color: #ff014f !important;
     transform: translateX(5px);
 }
+.footer-Section .footer-links a i {
+    font-size: 0.9rem;
+}
 
 /*Footer Section End*!*/
 /*My Projects Section Start*/
