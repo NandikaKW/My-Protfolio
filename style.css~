@@ -1700,6 +1700,11 @@
         justify-content: flex-start;
     }
 }
+.footer-Section a:hover i,
+.footer-Section .footer-links a:hover i,
+.footer-Section .contact-item:hover i {
+    color: #ff014f !important;
+}
 /*Footer Section End*!*/
 /*My Projects Section Start*/
 .blog__container{
@@ -2885,7 +2890,7 @@
     bottom: 40px;
     right: 60px;
     z-index: 9999;
-    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 4px 12px rgba(255, 0, 0, 0.95));
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
@@ -2901,38 +2906,24 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: rgba(254, 33, 79, 0.95);
+    background: red;
     color: white;
     text-decoration: none;
     position: relative;
     overflow: hidden;
-    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    box-shadow:
-            0 6px 20px rgba(0, 0, 0, 0.3),
-            inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 20px rgba(255, 0, 0, 0.95);
     border: 2px solid white;
-}
-
-.floating-home-btn__link:hover {
-    transform: translateY(-8px) scale(1.05);
-    background: rgba(254, 33, 79, 1);
-    box-shadow:
-            0 12px 25px rgba(0, 0, 0, 0.4),
-            inset 0 1px 1px rgba(255, 255, 255, 0.3);
 }
 
 .floating-home-btn__icon-container {
     position: relative;
     z-index: 2;
-    transition: all 0.3s ease;
 }
 
 .floating-home-btn__icon {
     width: 28px;
     height: 28px;
     fill: white;
-    transition: all 0.3s ease;
-    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
 }
 
 .floating-home-btn__text {
@@ -2940,153 +2931,22 @@
     right: 80px;
     opacity: 0;
     transform: translateX(10px);
-    transition: all 0.4s ease;
     font-family: 'Segoe UI', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    color: black;
-    background: white;
+    color: white;
+    background: red;
     padding: 8px 16px;
     border-radius: 30px;
     white-space: nowrap;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.95);
     pointer-events: none;
 }
 
-.floating-home-btn__link:hover .floating-home-btn__text {
-    opacity: 1;
-    transform: translateX(0);
-    right: 90px;
-}
-
-/* Particle Animation */
-.floating-home-btn__particles {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    pointer-events: none;
-    overflow: hidden;
-}
-
-.floating-home-btn__particles::before,
-.floating-home-btn__particles::after {
-    content: '';
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    background: rgba(255, 255, 255, 0.7);
-    border-radius: 50%;
-    opacity: 0;
-}
-
-.floating-home-btn__particles::before {
-    top: 20%;
-    left: 20%;
-    animation: particle-1 3s infinite linear;
-}
-
-.floating-home-btn__particles::after {
-    top: 60%;
-    left: 60%;
-    animation: particle-2 3s infinite linear;
-}
-
-@keyframes particle-1 {
-    0% {
-        transform: translate(0, 0);
-        opacity: 0;
-    }
-    20% {
-        opacity: 1;
-    }
-    100% {
-        transform: translate(-30px, -30px);
-        opacity: 0;
-    }
-}
-
-@keyframes particle-2 {
-    0% {
-        transform: translate(0, 0);
-        opacity: 0;
-    }
-    20% {
-        opacity: 1;
-    }
-    100% {
-        transform: translate(25px, -20px);
-        opacity: 0;
-    }
-}
-
-/* Click Animation */
-@keyframes floatingHomeBtnPulse {
-    0% {
-        transform: scale(1);
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-    }
-    50% {
-        transform: scale(0.9);
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    }
-    100% {
-        transform: scale(1);
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-    }
-}
-
-.floating-home-btn--clicked {
-    animation: floatingHomeBtnPulse 0.4s ease;
-}
-
-/* Ripple Effect */
-.floating-home-btn__link:active::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(255,255,255,0) 70%);
-    border-radius: 50%;
-    animation: ripple 0.6s ease-out;
-    z-index: 1;
-}
-
-@keyframes ripple {
-    from {
-        transform: scale(0);
-        opacity: 1;
-    }
-    to {
-        transform: scale(2);
-        opacity: 0;
-    }
-}
-
-/* Glow Effect */
-.floating-home-btn__link:hover::after {
-    content: '';
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    background: rgba(254, 33, 79, 0.3);
-    border-radius: 50%;
-    z-index: -1;
-    animation: glow 1.5s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-    from {
-        opacity: 0.6;
-        transform: scale(0.95);
-    }
-    to {
-        opacity: 0.9;
-        transform: scale(1.05);
-    }
-}
+/* Particle Animation - Removed */
+/* Click Animation - Removed */
+/* Ripple Effect - Removed */
+/* Glow Effect - Removed */
 
 /* Scroll Indicator */
 .floating-home-btn::before {
@@ -3097,7 +2957,7 @@
     transform: translateX(-50%);
     width: 3px;
     height: 60px;
-    background: rgb(0, 0, 0);
+    background: white;
     border-radius: 2px;
 }
 
@@ -3109,7 +2969,7 @@
     transform: translateX(-50%);
     width: 3px;
     height: 0;
-    background: white;
+    background: red;
     border-radius: 2px;
     transition: height 0.3s ease;
 }
@@ -3130,10 +2990,6 @@
         font-size: 14px;
         padding: 6px 12px;
         right: 70px;
-    }
-
-    .floating-home-btn__link:hover .floating-home-btn__text {
-        right: 80px;
     }
 }
 /* Floating Home Button end*/
