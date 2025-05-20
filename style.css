@@ -3184,7 +3184,12 @@
 .nav-link:hover {
     transform: translateX(-5px);
 }
-
+.nav-link::after,
+.right-side-nav {
+    background: none !important;
+    backdrop-filter: none !important;
+    box-shadow: none !important;
+}
 
 
 
