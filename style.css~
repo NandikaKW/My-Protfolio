@@ -3170,6 +3170,11 @@
 .nav-link {
     color: #ff014f; /* Red color */
     text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 500;
+    padding: 0.3rem 0;
+    transition: transform 0.3s ease;
+    display: inline-block;
 
 }
 
