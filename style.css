@@ -3153,7 +3153,11 @@
     display: none;
 
 }
-
+@media (min-width: 1440px) {
+    .right-side-nav {
+        display: block;
+    }
+}
 
 
 
