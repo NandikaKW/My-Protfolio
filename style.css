@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /*Home Page Section Start*/
 .custom-section {
-    --primary-color: #ff014f;
+    --primary-color: rgba(225, 29, 70);
     --text-dark: #222222;
     --white: #ffffff;
     --max-width: 1200px;
@@ -3147,15 +3147,18 @@
 .right-side-nav {
     position: fixed;
     right: 2rem;
+    top: 50%; /* Add this to center vertically */
     transform: translateY(-50%);
     z-index: 1000;
     font-family: 'Times New Roman', Times, serif;
-    display: none;
-
+    /* Change display logic to show by default and hide on smaller screens */
+    display: block;
 }
-@media (min-width: 1440px) {
+
+/* Adjust the media query to hide only on small screens if needed */
+@media (max-width: 1439px) {
     .right-side-nav {
-        display: block;
+        display: none;
     }
 }
 .nav-links {
