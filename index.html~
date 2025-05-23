@@ -522,10 +522,7 @@
                         <a href="https://github.com/NandikaKW/My-SPA-Pos-System.git"><i class="fas fa-tasks"></i> Assigment 07 </a>
                         <a href="https://github.com/NandikaKW/Assignment-08.git"><i class="fas fa-tasks"></i> Assigment 08</a>
                         <a href="https://github.com/NandikaKW/Assigment-09.git"><i class="fas fa-tasks"></i> Assigment 09</a>
-                        <a href=""><i class="fas fa-tasks"></i> Assigment 10</a>
-                        <a href=""><i class="fas fa-tasks"></i> Assigment 11</a>
-                        <a href=""><i class="fas fa-tasks"></i> Assigment 12</a>
-
+                        <a href="https://github.com/NandikaKW/My-SPA-Pos-System.git"><i class="fas fa-tasks"></i> Assigment 10</a>
                     </div>
                 </div>
             </div>
@@ -784,14 +781,14 @@
 <!-- Right-Side Navigation Bar start-->
 <nav class="right-side-nav">
     <ul class="nav-links">
-        <li><a href="#home" class="nav-link active">Home</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#blog" class="nav-link">Projects</a></li>
-        <li><a href="#submit" class="nav-link">Assignments</a></li>
-        <li><a href="#resume" class="nav-link">Education</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li><a href="#service" class="nav-link">Service</a></li>
+        <li><a href="#home" class="nav-link active"><span class="nav-text">Home</span></a></li>
+        <li><a href="#about" class="nav-link"><span class="nav-text">About</span></a></li>
+        <li><a href="#skills" class="nav-link"><span class="nav-text">Skills</span></a></li>
+        <li><a href="#blog" class="nav-link"><span class="nav-text">Projects</span></a></li>
+        <li><a href="#submit" class="nav-link"><span class="nav-text">Assignments</span></a></li>
+        <li><a href="#resume" class="nav-link"><span class="nav-text">Education</span></a></li>
+        <li><a href="#contact" class="nav-link"><span class="nav-text">Contact</span></a></li>
+        <li><a href="#service" class="nav-link"><span class="nav-text">Service</span></a></li>
     </ul>
 </nav>
 <!-- Right-Side Navigation Bar End-->
