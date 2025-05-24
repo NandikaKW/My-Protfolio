@@ -688,6 +688,14 @@
     position: relative;
     padding-left: 1.5rem;
 }
+.linkedin-link i {
+    transition: color 0.3s ease;
+    color: #ffffff; /* LinkedIn blue */
+}
+
+.linkedin-link:hover i {
+    color: #0b0a0a; /* Darker on hover */
+}
 
 .unique-section .about-para p::before {
     content: "";
