@@ -778,8 +778,13 @@
 </footer>
 <!-- Footer Section End-->
 
-<!-- Right-Side Navigation Bar start-->
-<nav class="right-side-nav">
+<!-- Modern Toggle Button -->
+<button class="nav-toggle-btn" id="navToggle">
+    <span class="toggle-icon"></span>
+</button>
+
+<!-- Right-Side Navigation Bar -->
+<nav class="right-side-nav" id="rightSideNav">
     <ul class="nav-links">
         <li><a href="#home" class="nav-link active">Home</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
@@ -791,9 +796,27 @@
         <li><a href="#service" class="nav-link">Service</a></li>
     </ul>
 </nav>
-<!-- Right-Side Navigation Bar End-->
 
+<script>
+    const navToggle = document.getElementById('navToggle');
+    const rightSideNav = document.getElementById('rightSideNav');
 
+    navToggle.addEventListener('click', () => {
+        rightSideNav.classList.toggle('show');
+
+        // Change aria-label for accessibility
+        const isOpen = rightSideNav.classList.contains('show');
+        navToggle.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+    });
+
+    // Close nav when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!rightSideNav.contains(e.target) && e.target !== navToggle && rightSideNav.classList.contains('show')) {
+            rightSideNav.classList.remove('show');
+            navToggle.setAttribute('aria-label', 'Open navigation');
+        }
+    });
+</script>
 
 
 

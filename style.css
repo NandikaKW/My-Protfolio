@@ -3210,7 +3210,162 @@
 .nav-links li:nth-child(7) { animation-delay: 0.7s; }
 .nav-links li:nth-child(8) { animation-delay: 0.8s; }
 
+/* ===== Modern Toggle Button ===== */
+.nav-toggle-btn {
+    display: none; /* Hidden by default */
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1001;
+    background: linear-gradient(135deg, #ff014f 0%, #d80042 100%);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px 0 0 8px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: -5px 5px 15px rgba(255, 1, 79, 0.3);
+    padding: 0;
+    overflow: hidden;
+}
 
+/* Only show on desktop/laptop screens */
+@media (min-width: 1024px) {
+    .nav-toggle-btn {
+        display: block;
+    }
+}
+
+/* Animated hamburger icon */
+.toggle-icon {
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: white;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.toggle-icon::before,
+.toggle-icon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    left: 0;
+    transition: all 0.3s ease;
+}
+
+.toggle-icon::before {
+    top: -8px;
+}
+
+.toggle-icon::after {
+    bottom: -8px;
+}
+
+/* Animate to X when nav is open */
+.right-side-nav.show + .nav-toggle-btn .toggle-icon {
+    background: transparent;
+}
+
+.right-side-nav.show + .nav-toggle-btn .toggle-icon::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.right-side-nav.show + .nav-toggle-btn .toggle-icon::after {
+    bottom: 0;
+    transform: rotate(-45deg);
+}
+
+/* Button hover effects */
+.nav-toggle-btn:hover {
+    transform: translateY(-50%) scale(1.05);
+    box-shadow: -5px 5px 20px rgba(255, 1, 79, 0.4);
+}
+
+.nav-toggle-btn:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+/* ===== Right Side Navigation Bar ===== */
+.right-side-nav {
+    position: fixed;
+    right: -300px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    transition: right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(245,245,245,0.95) 100%);
+    box-shadow: -5px 0 30px rgba(0,0,0,0.1);
+    padding: 2rem;
+    border-radius: 15px 0 0 15px;
+    backdrop-filter: blur(10px);
+}
+
+.right-side-nav.show {
+    right: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: #ff014f;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 500;
+    padding: 0.3rem 0;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.nav-link:hover {
+    transform: translateX(-8px);
+    color: #d80042;
+}
+
+/* Add a subtle pulse animation to the button */
+@keyframes pulse {
+    0% { box-shadow: -5px 5px 15px rgba(255, 1, 79, 0.3); }
+    50% { box-shadow: -5px 5px 20px rgba(255, 1, 79, 0.5); }
+    100% { box-shadow: -5px 5px 15px rgba(255, 1, 79, 0.3); }
+}
+
+.nav-toggle-btn {
+    animation: pulse 3s infinite;
+}
+
+.nav-toggle-btn:hover {
+    animation: none;
+}
+
+/* Animation delays for nav links */
+.nav-links li:nth-child(1) { animation-delay: 0.1s; }
+.nav-links li:nth-child(2) { animation-delay: 0.2s; }
+.nav-links li:nth-child(3) { animation-delay: 0.3s; }
+.nav-links li:nth-child(4) { animation-delay: 0.4s; }
+.nav-links li:nth-child(5) { animation-delay: 0.5s; }
+.nav-links li:nth-child(6) { animation-delay: 0.6s; }
+.nav-links li:nth-child(7) { animation-delay: 0.7s; }
+.nav-links li:nth-child(8) { animation-delay: 0.8s; }
 
 
 
