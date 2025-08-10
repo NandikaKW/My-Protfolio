@@ -3349,7 +3349,7 @@
     }
 }
 
-/* Magic Button (Desktop Only) */
+/* Three Dot Toggle Button (Desktop Only) */
 .nav-toggle-btn {
     position: fixed;
     right: 20px;
@@ -3358,22 +3358,46 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #ff014f 0%, #d80042 100%);
+    background: white;
     border: none;
-    color: white;
     cursor: pointer;
     z-index: 1001;
-    box-shadow: 0 4px 15px rgba(255, 1, 79, 0.4);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+}
+
+.dot-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000; /* Black dots */
+    transition: all 0.3s ease;
+}
+
+/* Active state (when menu is open) */
+.nav-toggle-btn.active {
+    background: linear-gradient(135deg, #ff014f 0%, #d80042 100%);
+    box-shadow: 0 6px 20px rgba(255, 1, 79, 0.6);
+}
+
+.nav-toggle-btn.active .dot {
+    background-color: white; /* Dots turn white when button is active */
 }
 
 .nav-toggle-btn:hover {
     transform: translateY(-50%) scale(1.1);
-    box-shadow: 0 6px 20px rgba(255, 1, 79, 0.6);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .nav-toggle-btn:active {
@@ -3383,16 +3407,16 @@
 /* Magic Pulse Animation */
 @keyframes magic-pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(255, 1, 79, 0.7),
-        0 4px 15px rgba(255, 1, 79, 0.4);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1),
+        0 4px 15px rgba(0, 0, 0, 0.1);
     }
     70% {
-        box-shadow: 0 0 0 10px rgba(255, 1, 79, 0),
-        0 6px 20px rgba(255, 1, 79, 0.6);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0),
+        0 6px 20px rgba(0, 0, 0, 0.2);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(255, 1, 79, 0),
-        0 4px 15px rgba(255, 1, 79, 0.4);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0),
+        0 4px 15px rgba(0, 0, 0, 0.1);
     }
 }
 

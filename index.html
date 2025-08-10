@@ -778,9 +778,13 @@
 </footer>
 <!-- Footer Section End-->
 
-<!-- Modern Toggle Button -->
-<button class="nav-toggle-btn" id="navToggle">
-    <span class="toggle-icon"></span>
+<!-- Modern Toggle Button with 3 dots -->
+<button class="nav-toggle-btn" id="navToggle" aria-label="Open navigation">
+    <span class="dot-menu">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </span>
 </button>
 
 <!-- Right-Side Navigation Bar -->
@@ -803,6 +807,7 @@
 
     navToggle.addEventListener('click', () => {
         rightSideNav.classList.toggle('show');
+        navToggle.classList.toggle('active');
 
         // Change aria-label for accessibility
         const isOpen = rightSideNav.classList.contains('show');
@@ -813,6 +818,7 @@
     document.addEventListener('click', (e) => {
         if (!rightSideNav.contains(e.target) && e.target !== navToggle && rightSideNav.classList.contains('show')) {
             rightSideNav.classList.remove('show');
+            navToggle.classList.remove('active');
             navToggle.setAttribute('aria-label', 'Open navigation');
         }
     });
